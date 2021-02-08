@@ -1,0 +1,144 @@
+# pipeline.sh ->
+
+# ask user for YYYY
+# show `cal -y YYYY`
+# ask user for MM
+# show `cal -d YYYY-MM`
+# ask for start and end date including both
+# check if less than 30, ask another month
+# check if = 30
+# assume that the date will be continous
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TODO :
+# segregate graphs with new formula, store redundant graphs in new dir
+# make graphs for low level ISPs
+# Add new RESULTS DIR
+
+
+# Old Method :  -> Download Data
+                -> Use simple grep to make CSV, 7 sec per search
+                -> Use only specific prefixes
+                -> Using matplotlib for graphs
+                -> highly unorganised & hardcoded
+                -> Can take months for big data analysis
+                -> Consumes more space & RAM+cores inefficiently
+
+# New Method :  -> Made a new pipeline
+                -> Much flexible code & reusable, splitted into mini bash scripts
+                -> Download data //ly, 3 days at a time
+                -> Using mongoDB for storage, //ly, 4 collections at a time, delete redundant simultaneously
+                -> mongoDB does compression, saves upto 80 GBs per month data
+                -> Major benifit from Indexing of prefixes, 7 sec grep search converted into 200 ms
+                -> ** Reverse approach, search all the available prefixes from multiple ASN, //ly
+                -> Then try to find out geolocations of only prefixes of interest, MAXMIND??
+                -> ******** Work of months converted into only 1 day!!! ********
+                -> Best use of cores, RAM + HDD, So new VM
+                -> Using bokeh_graphs for more interactive & visually appealing graphs, can be shared as HTML
+                -> Much flexible code & reusable, splitted into mini bash scripts
+
+Take input ->   YYYYMM
+                T1
+                T2
+                T3
+                T4
+                AIRTEL_AS9498.txt
+                TATA_AS9829.txt
+                BSNL_AS7643.txt
+                etc.........txt
+
+Sample Input -> 201912
+                0600
+                1000
+                1600
+                2000
+
+
+Method ->
+
+Loop over 30 days:
+    -> get data of 3 days simultaneously
+    -> go to all 3 folders, delete empty files
+    -> trim the data, remove & rename
+    -> replace whitesapce with comma
+    -> add CSV header
+    -> import T1, T2, T3, T4 instances in mongoimport at a time
+    -> add indexing in mongoDB
+    -> search for all IPs given in the DB and output in CSV, add CSV header
+    -> make graphs for CSV, use bokeh_graphs.py //ly
+    -> use email reminder in between
+
+## Split scripts into mini scripts & add instructions for each use case
+
+
+for dropping dbs -> for i in {01..30}; do mongo 201911$i --eval "db.dropDatabase()"; done
+
+for counting files -> find 202008/GRAPHS/ -type f | wc -l
+                   -> find 202008/EXTRA/ -type f | wc -l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
