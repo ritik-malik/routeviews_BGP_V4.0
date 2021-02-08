@@ -17,26 +17,25 @@ New & improved pipeline from routeviews_BGP_V3.0 <br>
 * Confimation check before proceeding
 * Call `master.sh` in background & exit
 
-`Structure of the array VARS :
-
-$vars{[0]} = 1st date [start] YYYYMMDD
-$vars{[1]} = 2nd date
-$vars{[2]} = 3rd date
-.
-.
-$vars{[29]} = 30th date [end]
-
-$vars{[30]} = timestamp_1 TTTT
-$vars{[31]} = timestamp_2 
-$vars{[32]} = timestamp_3 
-$vars{[33]} = timestamp_4 
-
-${vars[34]} = ISP_ASN [folder name]
-
-${vars[35]} = LIMIT XX
-
-This array is passed to master.sh
-#`
+`Structure of the array VARS :` <br>
+ <br>
+`$vars{[0]} = 1st date [start] YYYYMMDD` <br>
+`$vars{[1]} = 2nd date` <br>
+`$vars{[2]} = 3rd date` <br>
+`.` <br>
+`.` <br>
+`$vars{[29]} = 30th date [end]` <br>
+ <br>
+`$vars{[30]} = timestamp_1 TTTT` <br>
+`$vars{[31]} = timestamp_2`  <br>
+`$vars{[32]} = timestamp_3`  <br>
+`$vars{[33]} = timestamp_4`  <br>
+ <br>
+`${vars[34]} = ISP_ASN [folder name]` <br>
+ <br>
+`${vars[35]} = LIMIT XX` <br>
+ <br>
+This array is passed to master.sh <br>
 
 
 #### master.sh
