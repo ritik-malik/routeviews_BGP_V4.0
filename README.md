@@ -6,6 +6,7 @@ New & improved pipeline from  _[routeviews_BGP_V3.0](https://github.com/ritik-ma
 ### Upgradations in new pipeline
 * More intutive input for scripts
 * Dates are flexible, not hardcoded for 1 month, can use any 30 days
+* Execution time = 1.5 days
 
 ### Pipeline flow
 
