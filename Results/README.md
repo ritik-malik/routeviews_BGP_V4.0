@@ -1,13 +1,14 @@
-This dir contains results from the new pipeline <br>
+## This directory contains results from the new pipeline <br>
 For previous results see older pipeline V30. <br>
 
-Case studies so far -> <br>
+#### Case studies so far -> <br>
 
-Old pipeline : India, Britain, Iran <br>
-New pipeline : Myanmar <br>
+* **Old pipeline** : India, Britain, Iran <br>
+* **New pipeline** : Myanmar <br>
 
-Successful Quests so far -> <br>
+<br>
 
+#### Successful Quests so far -> <br>
 Iran, Myanmar <br>
 
 
