@@ -10,7 +10,8 @@
 # assume that the date will be continous
 
 
-
+# awk -F'|' '{ print $2" "$3}' rib_dumps | awk '{print $1 "," $NF}' > temp
+# sed -i '/:/d' temp [remove IPv6 addr]
 
 
 
