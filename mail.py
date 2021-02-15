@@ -1,5 +1,11 @@
 import smtplib, ssl, sys
 
+# Script to send email notification to RECEIVER from EMAIL
+# Takes str msg as CLI arg
+#
+# Usage -> python3 mail.py "you msg here..."
+#
+
 message = sys.argv[1]
 EMAIL = "sender email"
 PASSWD = "passwd here"
