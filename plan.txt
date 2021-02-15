@@ -1,0 +1,69 @@
+
+* Download data for 30 days - 3 simultaneously from ribs (routeviews.py)
+* 30 folder - YYYYMMDD
+
+* Each folder -> rib.YYYYMMDD.TTTT.mirror
+
+* For each dump in each folder -> trim them in order ->
+    # awk -F '|' '{ print $2" "$3}' rib_dumps | awk '{print $1 "," $NF}' > rib_dumps.tmp
+    # mv rib_dumps.tmp rib_dumps
+    # sed -i '/:/d' rib_dumps.tmp
+    
+    Final look of a dump ->
+    Prefix, ASN
+    a.b.c.d/ss, 9498
+
+* Now open all files files in python ->
+    Read them side by side into dict
+    Final data structure -> Dict ASN = {'Prefix': Count}
+                    eg.  -> Dict AS9498 = {'192.168.1.0/24', 138}....
+
+    Like this make Dictioneries of Dictioneries ->
+
+                            Keys    Values
+
+    Dict YYYYMMDD.TTTT ->   ASN -> {'Prefix': Count}
+
+* Save these Dictioneries as pickle
+
+* Load them & read them to replicate mongo CSV.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
