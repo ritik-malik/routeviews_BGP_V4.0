@@ -42,8 +42,10 @@ New & improved pipeline from  _[routeviews_BGP_V3.0](https://github.com/ritik-ma
 This array is passed to master.sh <br>
 
 
-#### master.sh
-* 
+#### What's next?
+To get better insight of actual approach & hypothesis -
+* Read plan.txt
+* Each script has a little doc inside
 
 _**Update this doc**_
 
