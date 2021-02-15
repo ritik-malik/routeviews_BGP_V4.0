@@ -4,15 +4,33 @@
 # Initializes and declares all the variables - (dates, time, prefixes, limit, etc.)
 # Then pass the array to master.sh
 # See EOD for structure of the array - "vars"
-# Make sure you are in same dir as scripts & it has ISP_ASN folder
+# Make sure you are in same dir as all other scripts & it has target_ASN.txt file
+# This target_ASN.txt files contains all target ASes that need to be searched in dumps 
+# in the format -> ISP_ASN, newline separated
+# eg -> AIRTEL-BHARTI_9498
 #
-# Usage -> ./beta_pipeline.sh
+# Usage -> ./pipeline.sh
 
 echo
-echo "========================================="
-echo "<<<===== WELCOME TO THE PIPELINE =====>>>"
-echo "========================================="
+echo "============================================="
+echo "<<<======= WELCOME TO THE PIPELINE =======>>>"
+echo "============================================="
 echo
+
+echo "Checking for all files in current directory..."
+ch_files=()
+for i in $(ls); do ch_files+=($i); done
+
+if printf '%s\n' "${ch_files[@]}" | grep -q -P '^master.sh$'; then echo "Found master.sh"; else echo -e "master.sh is missing!\nExiting..."; exit; fi
+if printf '%s\n' "${ch_files[@]}" | grep -q -P '^dumps_to_dicts.py$'; then echo "Found dumps_to_dicts.py"; else echo -e "dumps_to_dicts.py is missing!\nExiting..."; exit; fi
+if printf '%s\n' "${ch_files[@]}" | grep -q -P '^generate_ISP_ASN.py$'; then echo "Found generate_ISP_ASN.py"; else echo -e "generate_ISP_ASN.py is missing!\nExiting..."; exit; fi
+if printf '%s\n' "${ch_files[@]}" | grep -q -P '^generate_CSV.py$'; then echo "Found generate_CSV.py"; else echo -e "generate_CSV.py is missing!\nExiting..."; exit; fi
+if printf '%s\n' "${ch_files[@]}" | grep -q -P '^make_graphs.sh$'; then echo "Found make_graphs.sh"; else echo -e "make_graphs.sh is missing!\nExiting..."; exit; fi
+if printf '%s\n' "${ch_files[@]}" | grep -q -P '^bokeh_graphs.py$'; then echo "Found bokeh_graphs.py"; else echo -e "bokeh_graphs.py is missing!\nExiting..."; exit; fi
+if printf '%s\n' "${ch_files[@]}" | grep -q -P '^mail.py$'; then echo "Found mail.py"; else echo -e "mail.py is missing!\nExiting..."; exit; fi
+if printf '%s\n' "${ch_files[@]}" | grep -q -P '^routeviews.py$'; then echo "Found routeviews.py"; else echo -e "routeviews.py is missing!\nExiting..."; exit; fi
+
+echo -e "\nCheck complete, found all files...\n"
 
 vars=()
 while [ ${#vars[@]} -lt 30 ]
@@ -29,9 +47,20 @@ do
     read -p "Enter end date DD : " ED
 
     for i in $(seq -w $SD $ED); do vars+=(${YYYY}${MM}${i}); done
-    echo "Total ${#vars[@]} dates added..."
+    echo -e "\nTotal ${#vars[@]} dates added..."
 
 done
+
+# check if dates are exactly 30
+if [ ${#vars[@]} -ne 30 ]
+then 
+    echo "Selected dates are not equal to 30, plz try again!"
+    echo "Exiting..."
+    exit
+else
+    echo -e "\n30 days confirmed!"
+fi
+
 
 echo
 read -p "Enter the 1st timestamp : " TIME_1
@@ -43,8 +72,26 @@ vars+=(${TIME_1}); vars+=(${TIME_2})
 vars+=(${TIME_3}); vars+=(${TIME_4})
 
 echo
-read -p "Enter name of the folder containing prefixes in ISP_ASN format : " ISP_ASN 
-vars+=(${ISP_ASN})
+echo "Make sure you have a file named 'target_ASN.txt' in the current dir"
+echo "It should contain newline seperated ASes to be searched in ribs, eg - AIRTEL-BHARTI_9498"
+echo
+read -p "Confirm the presence of this file : (y/n) "  check_AS
+
+if [ ${check_AS} != "y" ]
+then
+    echo "Confirmation failed, exiting!"
+    exit    
+fi
+
+
+if [ ! -f target_ASN.txt ]; then
+    echo "'target_ASN.txt' file not found!"
+    echo "exiting..."
+    exit
+else
+    echo -e "\nFound target_ASN.txt file...\n"
+fi
+
 
 read -p "Enter the max() - min() % LIMIT for making graphs XX : " LIMIT
 vars+=(${LIMIT})
@@ -53,8 +100,8 @@ echo -e "\n____________________________________________________________\n"
 echo -e "Here's what you entered :\n"
 for i in "${vars[@]}"; do echo "$i"; done
 
-echo -e "\nPrefix files in ${ISP_ASN} :\n"
-for i in $(ls ${ISP_ASN}); do echo $i; done
+echo -e "\nTarget ASes in target_ASN.txt :\n"
+cat target_ASN.txt
 
 
 echo -e "\n____________________________________________________________\n"
@@ -70,9 +117,9 @@ if [ "${ans}" = "YES START THE PIPELINE" ]; then
     echo "<<<-------This is the log file maintained by the program-------->>>" >> logs.txt
     echo -e "\nCurrent value choosen by user" >> logs.txt
     for i in "${vars[@]}"; do echo "$i"; done >> logs.txt
-    echo "Prefix files in ${ISP_ASN} :" >> logs.txt
-    for i in $(ls ${ISP_ASN}); do echo $i; done >> logs.txt
-    echo "Now calling master.sh for main task..." >> logs.txt
+    echo "Target ASes in target_ASN.txt :" >> logs.txt
+    cat target_ASN.txt >> logs.txt
+    echo -e "\nNow calling master.sh for main task..." >> logs.txt
 
     nohup ./master.sh "${vars[@]}" &
 
@@ -98,9 +145,7 @@ fi
 # $vars{[32]} = timestamp_3 
 # $vars{[33]} = timestamp_4 
 #
-# ${vars[34]} = ISP_ASN [folder name]
-#
-# ${vars[35]} = LIMIT XX
+# ${vars[34]} = LIMIT XX
 #
 # This array is passed to master.sh
 #
