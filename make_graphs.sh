@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script will iterate over all CSV files & call bokeh_graphs.py
+
 ###################### NOTE ########################
 
 # if you are running this script directly, Syntax ->
@@ -15,7 +17,7 @@ echo "Making graphs now..." >> logs.txt
 
 for FILE_NAME in $(ls | grep _database.csv)
 do
-  python3.7 bokeh_graphs.py ${FILE_NAME} ${LIMIT} &
+  python3.7 bokeh_graphs.py ${FILE_NAME} ${LIMIT} &           # make graphs //ly for each CSV
   wait_buffer+=($!)
   echo "Making graphs from FILE : ${FILE_NAME}" >> logs.txt
 done
