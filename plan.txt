@@ -1,4 +1,13 @@
+* In pipeline.sh -> perform sanity check for all files
+* Use double confirmations for user inputs & files
 
+* target_ASN.txt : A new file that must be included before running the pipeline
+* It contains list of ISPs that needed to be searched in the ribs & extract unqiue prefixes
+* to make ISP_ASN files
+* Format of target_ASN.txt : new lines separeted values in form of ISP_ASN
+* without the keyword "AS", eg -> AIRTEL-BHARTI_9498
+
+* master.sh ->
 * Download data for 30 days - 3 simultaneously from ribs (routeviews.py)
 * 30 folder - YYYYMMDD
 
@@ -7,7 +16,7 @@
 * For each dump in each folder -> trim them in order ->
     # awk -F '|' '{ print $2" "$3}' rib_dumps | awk '{print $1 "," $NF}' > rib_dumps.tmp
     # mv rib_dumps.tmp rib_dumps
-    # sed -i '/:/d' rib_dumps.tmp
+    # sed -i '/{\|:/d' rib_dumps.tmp
     
     Final look of a dump ->
     Prefix, ASN
@@ -27,37 +36,34 @@
 * Save these Dictioneries as pickle
 
 * Load them & read them to replicate mongo CSV.sh
+* Iterate over all pkl files & make new dicts for unqiue prefixes for selected ISPs
+* Make a new folder & dump these new dicts as files in that
 
+* Then traverse over these files in ISP_ASN //ly & call py script to generate CSVs
+* They will search all the pkl files (sorted) to find freq of unique prefixes & dump
+* them to the CSVs
 
+* Then call the old version of make_graphs.sh which call bokeh_graphs.py
+* After that it is same process as before
 
+* Note ->
+* Querying in python dictioneries is much faster, in O(1) coz of hash tables, around
+* 1000x faster than queries in mongoDB, also no time waste for adding indexing in DB
+* Also, binaries take up less space -> (2.2 MB for 1 pkl) x 4 x 30 -> 264 MB
+* Size of average rib dump for 1 Timestamp -> 16 GB
+* Size of average rib dump for 1 month -> 480 GB
 
+* This time also we take 1st (prefix) & 2nd (path) column from ribs after BGPscanner
+* BUT, then we keep only last entry of path, coz that is the origin AS for the prefix
+* So size is drastically reduced
 
+* Then search through all the ribs for these origin AS to make unqiue list of prefixes
+* for selected ASes in target_AS.txt
+* Make ISP_ASN files for these unique prefixes & then reverse search these in dumps
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* The change in approach is coz CIDR is constantly updated & it is chances that the
+* prefix might have merged during shutdown & not appear in CIDR report later
+* Specially vulnerable for events that happened months/years ago
 
 
 
