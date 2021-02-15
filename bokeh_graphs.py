@@ -12,8 +12,8 @@ ISP, AS, EXT = FILE_NAME.split('_')
 
 
 data = pd.read_csv(FILE_NAME)
-os.mkdir(ISP+'_'+AS+'_graphs')
-os.chdir(ISP+'_'+AS+'_graphs')
+os.mkdir(ISP+'_AS'+AS+'_graphs')
+os.chdir(ISP+'_AS'+AS+'_graphs')
 
 
 x=[]
@@ -29,7 +29,7 @@ for i in range(len(data)):
         yy=[]
         max_y = max(y)
 
-        # if the prefix not found in mongo & has all 0, then reset & continue next prefix
+        # if the prefix not found in CSV & has all 0, then reset & continue next prefix
         if max_y == 0:
             x=[]
             y=[]
@@ -37,7 +37,7 @@ for i in range(len(data)):
 
 
         for freq in range(len(y)):
-            yy.append(round(100*(y[freq]/max_y),2))    # take % istead of absolute values
+            yy.append(round(100*(y[freq]/max_y),2))    # take % instead of absolute values
         
         # print('Len of x = ',len(x))
         # print('Len of y = ',len(y))
@@ -76,7 +76,7 @@ for i in range(len(data)):
                 
             output_file(name)
 
-            title = ISP+'_'+AS+' ->   '+data.PREFIX[i-1]+'   ,  [ max = '+str(max(y))+', min = '+str(min(y))+' ]'
+            title = ISP+'_AS'+AS+' ->   '+data.PREFIX[i-1]+'   ,  [ max = '+str(max(y))+', min = '+str(min(y))+' ]'
 
             p = figure(title=title, x_axis_label='dates', y_axis_label='freq', x_range=x, plot_width = 1900, plot_height = 900)
 
