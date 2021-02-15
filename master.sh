@@ -2,8 +2,8 @@
 
 # follow up script from pipeline.sh
 # download 30 days data from routeviews
-# Call other all other scripts from here
-# server has 40 v-CPUs, so run 3 instances at a time
+# Call all other scripts from here
+# server specs : 20 v-CPUs, so run 3 instances at a time, //ly
 
 ############ GLOBAL VARS ##############
 
@@ -23,11 +23,11 @@ vars=("$@")
 # $vars{[32]} = timestamp_3 
 # $vars{[33]} = timestamp_4 
 #
-# ${vars[34]} = ISP_ASN [folder name]
-#
-# ${vars[35]} = LIMIT XX
+# ${vars[34]} = LIMIT XX
 #
 #######################################
+
+# PHASE 1
 
 try=0
 wait_buffer=()
@@ -79,53 +79,75 @@ do
     try=0             # reset try
 
     ######################################## step 1 done, now step 2
-    ######################################## data filtering & mongoDB for 3 days //ly
+    ######################################## data filtering & py dicts for 3 days //ly
 
     while [ ${try} -ne 3 ]
     do
-
+    
         cd ${vars[$((i+try))]}
         rm routeviews.py
         find . -size 0 -delete      # delete empty files
 
+        # now for each dumps in the folder : 
+        # 1 -> keep only 2 columns  -----\
+        # 2 -> rename the dumps     ------|----> //ly for all files
+        # 3 -> remove IPv6 dumps    -----/
+        # 4 -> remove bogus dumps   ----/
+
         for dumps in $(ls)
         do
             echo Trimming ${dumps}
-            (awk -F'|' '{ print $2" "$3}' ${dumps} > ${dumps}.tmp    # trim the data
+            (awk -F '|' '{ print $2" "$3}' ${dumps} | awk '{print $1 "," $NF}' > ${dumps}.tmp   # keep only 2 columns [prefix, dst_ASN]
             mv ${dumps}.tmp ${dumps}                                 # remove old and rename
-            sed -i 's/\ /,/g' ${dumps}                               # replace ' ' with ',' AND # add csv header
-            sed  -i '1i PREFIX,PATH1,PATH2,PATH3,PATH4,PATH5,PATH6,PATH7,PATH8,PATH9,PATH10,PATH11,PATH12,PATH13,PATH14,PATH15,PATH16' ${dumps}) &
+            sed -i '/{\|:/d' ${dumps})&                                   # remove IPv6 dumps (with : ) & bogus dumps (with {} )
+            # run all of them //ly
             wait_buffer+=($!)
         done
 
-        echo -e "\nHouse keeping in ${vars[$((i+try))]}\n1. Deleting routeviews.py\n2. Deleting empty files\n3. Trimming dumps\n4. Replacing whitespace with comma\n5. Inserting CSV header\n" >> ../logs.txt
+        echo -e "\nHouse keeping in ${vars[$((i+try))]}\n1. Deleting routeviews.py\n2. Deleting empty files\n3. Trimming dumps\n4. Remove & rename\n5. Removing IPv6 dumps\n6. Removing bogus dumps\n" >> ../logs.txt
 
         for PID in "${wait_buffer[@]}"; do wait ${PID}; done    # wait for cleansing of data
         wait_buffer=()    # reset array
 
-        echo -e "House keeping done successfully\nNow importing data for ${vars[$((i+try))]} in mongoDB, 4 collections at a time..." >> ../logs.txt
+        echo -e "House keeping done successfully\nNow importing data for ${vars[$((i+try))]} in py dictioneries, 4 dicts at a time..." >> ../logs.txt
 
-        # now mongo import
+        # the folder now contains dumps -> rib.YYYYMMDD.TTTT.mirror
+        #
+        # now make py master dicts
+        # python3 dumps_to_dicts.py YYYYMMDD.TTTT
+        #
+        # the folder will finally contains 4 dicts -> YYYYMMDD.TTTT.pkl -> for 4 timestamps
+        # Structure of these dictioneries [nested dicts] ->
+        #
+        # Dict YYYYMMDD.TTTT = {ASN1 : {'Prefix1': Count},
+        #                              {'Prefix2': Count}...,
+        #                       ASN2...}
+        #
+        # Where ASNs are collected from target_ASN.txt file in the parent dir
+        # and the dumps are scanned to find unqiue prefixes for these ASNs & their freq
 
-        FILES_1=rib.${vars[$((i+try))]}.${vars[30]}_*
-        (for F in $FILES_1; do mongoimport -d ${vars[$((i+try))]} -c ${vars[30]} --type csv --file "$F" --headerline; done) &
+        cp ../dumps_to_dicts.py .
+
+        python3 dumps_to_dicts.py ${vars[$((i+try))]}.${vars[30]} &     # timestamp_1
         wait_buffer+=($!)
-        FILES_2=rib.${vars[$((i+try))]}.${vars[31]}_*
-        (for F in $FILES_2; do mongoimport -d ${vars[$((i+try))]} -c ${vars[31]} --type csv --file "$F" --headerline; done) &
+        python3 dumps_to_dicts.py ${vars[$((i+try))]}.${vars[31]} &     # timestamp_2
         wait_buffer+=($!)
-        FILES_3=rib.${vars[$((i+try))]}.${vars[32]}_*
-        (for F in $FILES_3; do mongoimport -d ${vars[$((i+try))]} -c ${vars[32]} --type csv --file "$F" --headerline; done) &
+        python3 dumps_to_dicts.py ${vars[$((i+try))]}.${vars[32]} &     # timestamp_3
         wait_buffer+=($!)
-        FILES_4=rib.${vars[$((i+try))]}.${vars[33]}_*
-        (for F in $FILES_4; do mongoimport -d ${vars[$((i+try))]} -c ${vars[33]} --type csv --file "$F" --headerline; done) &
+        python3 dumps_to_dicts.py ${vars[$((i+try))]}.${vars[33]} &     # timestamp_4
         wait_buffer+=($!)
 
-        for PID in "${wait_buffer[@]}"; do wait ${PID}; done    # wait for mongoimport
+
+        for PID in "${wait_buffer[@]}"; do wait ${PID}; done    # wait for py_dicts
         wait_buffer=()    # reset array
 
         echo "Imported data successfully!" >> ../logs.txt
         echo "Deleting redundant data..." >> ../logs.txt
-        rm *
+        
+        rm rib* dumps_to_dicts.py           # remove all files except pickle dicts
+        
+        # ls | grep -v *.pkl | xargs rm        
+        # rm !(*.pkl)
 
         cd ..
         ((try++))
@@ -136,11 +158,7 @@ do
 
 done
 
-## donwloaded & imported data for 30 days
-
-echo "Deleting empty folders..." >> logs.txt
-find . -empty -type d -delete
-
+echo -e "\nDonwloaded & imported data into pickle dict for 30 days" >> logs.txt
 
 ##########################################################
 
@@ -149,19 +167,51 @@ python3 mail.py "COMPLETED PHASE 1 successfully! Data is downloaded & imported t
 
 ##########################################################
 
-# run script to add index
+# PHASE 2
+#
+# Now we have 30 folders -> YYYYMMDD
+# & each folder has 4 files for 4 timestamps -> YYYYMMDD.TTTT.pkl
+# Now create a new folder ISP_ASN
+# Make files for each target_AS & append them with unique prefixes from .pkl files
 
-/bin/bash add_index.sh "${vars[@]}"
+echo -e "\nNow generating ISP_ASN..." >> logs.txt
+
+mkdir ISP_ASN
+python3 generate_ISP_ASN.py
+
+echo -e "\nCheck new ISP_ASN folder for files with unique prefixes!" >> logs.txt
 
 ##########################################################
 
-# script to search mongo & make CSV
-/bin/bash mongo_CSV.sh "${vars[@]}"
+echo -e "\nCOMPLETED PHASE 2 successfully!\nSending an email" >> logs.txt
+python3 mail.py "COMPLETED PHASE 2 successfully! Unique prefixes have been appended in ISP_ASN!"
 
 ##########################################################
 
+wait_buffer=()
+echo -e "\nMaking CSV files now...\n" >> logs.txt
+
+for F in $(ls ISP_ASN)
+do
+    echo "Making CSV for $F" >> logs.txt
+    python3 generate_CSV.sh $F &            # call for all ISP_ASN //ly
+    wait_buffer+=($!)
+done
+
+for PID in "${wait_buffer[@]}"; do wait ${PID}; done    # wait for CSVs
+wait_buffer=()    # reset array
+
+##########################################################
+
+echo -e "\nCOMPLETED PHASE 3 successfully!\nSending an email" >> logs.txt
+python3 mail.py "COMPLETED PHASE 3 successfully! All CSV files have been made!"
+
+##########################################################
+
+# Now cur dir has ISP_ASN_database.csv files
 # make graphs from CSV files
-/bin/bash make_graphs.sh "${vars[35]}"
+
+/bin/bash make_graphs.sh "${vars[34]}"
 
 ##########################################################
 
