@@ -3,10 +3,14 @@
 New & improved pipeline from  _[routeviews_BGP_V3.0](https://github.com/ritik-malik/routeviews_BGP_V3.0/)_ <br>
 **Beta version** <br>
 
-### Upgradations in new pipeline
-* More intutive input for scripts
+### Major upgradations in new pipeline
 * Dates are flexible, not hardcoded for 1 month, can use any 30 days
-* Execution time = 1.5 days
+* Support removed for mongoDB, replaced by py dictioneries _\(much faster!)_
+* Execution time less than half day, compared to 1.5 days previously
+* Efficient storage : Using pickle to store dicts as binaries
+* More intutive input for scripts
+* Each script has little man page inside for debugging
+* This time no need to scrap prefixes, use the ribs itself
 
 ### Pipeline flow
 
@@ -14,6 +18,7 @@ New & improved pipeline from  _[routeviews_BGP_V3.0](https://github.com/ritik-ma
 * Input YYYY MM & DD until 30 days are covered (new UI)
 * Input 4 timestamps (0200 0800 1400 2000 recommended for better coverage)
 * Input ISP_ASN folder name + LIMIT for graphs
+* Perform sanity check for all files
 * Display all the inputs (vars array) + show warning
 * Confimation check before proceeding
 * Call `master.sh` in background & exit
@@ -31,10 +36,8 @@ New & improved pipeline from  _[routeviews_BGP_V3.0](https://github.com/ritik-ma
 `$vars{[31]} = timestamp_2`  <br>
 `$vars{[32]} = timestamp_3`  <br>
 `$vars{[33]} = timestamp_4`  <br>
- <br>
-`${vars[34]} = ISP_ASN [folder name]` <br>
- <br>
-`${vars[35]} = LIMIT XX` <br>
+ `.`<br>
+`${vars[34]} = LIMIT XX` <br>
  <br>
 This array is passed to master.sh <br>
 
