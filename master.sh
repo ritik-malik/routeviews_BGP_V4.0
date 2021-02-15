@@ -194,7 +194,7 @@ echo -e "\nMaking CSV files now...\n" >> logs.txt
 for F in $(ls ISP_ASN)
 do
     echo "Making CSV for $F" >> logs.txt
-    python3 generate_CSV.sh $F &            # call for all ISP_ASN //ly
+    python3 generate_CSV.py $F &            # call for all ISP_ASN //ly
     wait_buffer+=($!)
 done
 
