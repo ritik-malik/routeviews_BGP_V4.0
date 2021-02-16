@@ -48,11 +48,11 @@ To get better insight of actual approach & hypothesis -
 * Each script has a little doc inside <br>
 Start from `pipeline.sh`, it will lead to all other scripts
 
-### Some interesting stats :
+### Some interesting stats
 The results are out from new pipeline for ribs from `14th Jan` to `12th Feb` \(for India) :- <br>
 \(This is important to analyse as these are the results from the 1st run) <br>
 
-**Some good stuff -**
+**Some good stuff :**
 * New pipeline now runs in 7 hours, compared to 40 hours previously!
 * The hypothesis was right, we got overall more prefixes from ribs than from CIDR,<br>
 `CIDR prefixes -> 19884` <br>
@@ -65,7 +65,7 @@ Storage < 500 MB, RAM < 6 GB
 `New pipeline : 1205` <br>
 And that's insane! <br>
 
-**Some bad news -**
+**Some bad stuff :**
 * There seems to be very little correlation, but could be just coincidence, <br>
 Only a very small fraction of graphs falling in the right spot, on the days of shutdown <br>
 \(this is only for India) <br>
