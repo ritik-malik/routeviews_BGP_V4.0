@@ -22,7 +22,7 @@ Graphs in 201912 : 2109 <br>
 15. SWASTIK
 16. TIKONA
 17. TOUCHNET
-18. Hathway \(all the graphs have same pattern), Aurangabad, news source - (link)[https://timesofindia.indiatimes.com/city/aurangabad/13-booked-for-protesting-against-caa-nrc-in-city/articleshow/72627920.cms]
+18. Hathway \(all the graphs have same pattern), Aurangabad, news source - [link](https://timesofindia.indiatimes.com/city/aurangabad/13-booked-for-protesting-against-caa-nrc-in-city/articleshow/72627920.cms)
 
 
 
