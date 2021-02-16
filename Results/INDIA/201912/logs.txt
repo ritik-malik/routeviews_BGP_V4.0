@@ -1,0 +1,917 @@
+<<<-------This is the log file maintained by the program-------->>>
+
+Current value choosen by user
+20191202
+20191203
+20191204
+20191205
+20191206
+20191207
+20191208
+20191209
+20191210
+20191211
+20191212
+20191213
+20191214
+20191215
+20191216
+20191217
+20191218
+20191219
+20191220
+20191221
+20191222
+20191223
+20191224
+20191225
+20191226
+20191227
+20191228
+20191229
+20191230
+20191231
+0200
+0800
+1400
+2000
+20
+Target ASes in target_ASN.txt :
+ACTFIBERNET_131269
+AIRLINE_132978
+AIRNET_132540
+AIRTEL-BHARTI_9498
+AIRTEL-GPRS_45609
+AIRTEL-TELE_24560
+ALEGRA_136902
+ALLIANCE_23860
+ALWAR_134280
+ANI_132116
+BALAJI_139525
+BSNL_9829
+CLICK_136361
+DEN_45184
+D-VOIS_45769
+ETH-EXPRESS_134053
+EXCITEL_133982
+FUSION-NET_134375
+GTPL_135257
+HATHWAY_17488
+HCIN_140121
+ICONNECT_135189
+IDEA_45271
+IKON_134908
+ISHAN_133977
+JAIPUR_137659
+JDM_134341
+JETSPOT_134325
+JETWAY_134913
+JIO_55836
+JOISTER_135846
+KAPPA_45433
+KOTA_134875
+LUCKY_135866
+MAKS_134295
+MTNL_17813
+NAMOH_138263
+NETFLIX-DURGA_136292
+NEXTRA_58640
+ORANGE_55341
+ORTEL_23772
+PACENET_23682
+PERFECT_132323
+PLUSNET_133234
+RAGSAA_134917
+R-COM_18101
+R-NET_134337
+ROYAL_137622
+SAMPARK_133232
+SBR_133989
+SHIVRAJ_133983
+SIFY_9583
+SIKKA_45942
+SITI_17747
+SKYNET_132566
+SMARTLINK_55879
+SPACENET_45232
+SPEEDNET_135760
+SPIDERLINK_134928
+SUNRAY_134028
+SWASTIK_133724
+TATA_4755
+TATA-SKY_134674
+TATA-TELE_45820
+T-COM-2_10199
+T-COM_17908
+TCS_131265
+TIKONA_45528
+TOUCHNET_135693
+UCN_133007
+VIVA_55806
+VODAFONE_38266
+VODA-IDEA_55410
+WEFE_133695
+WINET_135696
+WISHNET_45775
+WOW_133590
+YOU-BROAD_18207
+ZAPBYTES_133652
+
+Now calling master.sh for main task...
+
+Iteration number #0 out of 27
+__________________________________
+
+Downloading data for 20191202.0200
+Downloading data for 20191202.0800
+Downloading data for 20191202.1400
+Downloading data for 20191202.2000
+
+Downloading data for 20191203.0200
+Downloading data for 20191203.0800
+Downloading data for 20191203.1400
+Downloading data for 20191203.2000
+
+Downloading data for 20191204.0200
+Downloading data for 20191204.0800
+Downloading data for 20191204.1400
+Downloading data for 20191204.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20191202
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191202 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191203
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191203 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191204
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191204 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #3 out of 27
+__________________________________
+
+Downloading data for 20191205.0200
+Downloading data for 20191205.0800
+Downloading data for 20191205.1400
+Downloading data for 20191205.2000
+
+Downloading data for 20191206.0200
+Downloading data for 20191206.0800
+Downloading data for 20191206.1400
+Downloading data for 20191206.2000
+
+Downloading data for 20191207.0200
+Downloading data for 20191207.0800
+Downloading data for 20191207.1400
+Downloading data for 20191207.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20191205
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191205 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191206
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191206 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191207
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191207 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #6 out of 27
+__________________________________
+
+Downloading data for 20191208.0200
+Downloading data for 20191208.0800
+Downloading data for 20191208.1400
+Downloading data for 20191208.2000
+
+Downloading data for 20191209.0200
+Downloading data for 20191209.0800
+Downloading data for 20191209.1400
+Downloading data for 20191209.2000
+
+Downloading data for 20191210.0200
+Downloading data for 20191210.0800
+Downloading data for 20191210.1400
+Downloading data for 20191210.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20191208
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191208 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191209
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191209 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191210
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191210 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #9 out of 27
+__________________________________
+
+Downloading data for 20191211.0200
+Downloading data for 20191211.0800
+Downloading data for 20191211.1400
+Downloading data for 20191211.2000
+
+Downloading data for 20191212.0200
+Downloading data for 20191212.0800
+Downloading data for 20191212.1400
+Downloading data for 20191212.2000
+
+Downloading data for 20191213.0200
+Downloading data for 20191213.0800
+Downloading data for 20191213.1400
+Downloading data for 20191213.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20191211
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191211 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191212
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191212 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191213
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191213 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #12 out of 27
+__________________________________
+
+Downloading data for 20191214.0200
+Downloading data for 20191214.0800
+Downloading data for 20191214.1400
+Downloading data for 20191214.2000
+
+Downloading data for 20191215.0200
+Downloading data for 20191215.0800
+Downloading data for 20191215.1400
+Downloading data for 20191215.2000
+
+Downloading data for 20191216.0200
+Downloading data for 20191216.0800
+Downloading data for 20191216.1400
+Downloading data for 20191216.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20191214
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191214 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191215
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191215 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191216
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191216 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #15 out of 27
+__________________________________
+
+Downloading data for 20191217.0200
+Downloading data for 20191217.0800
+Downloading data for 20191217.1400
+Downloading data for 20191217.2000
+
+Downloading data for 20191218.0200
+Downloading data for 20191218.0800
+Downloading data for 20191218.1400
+Downloading data for 20191218.2000
+
+Downloading data for 20191219.0200
+Downloading data for 20191219.0800
+Downloading data for 20191219.1400
+Downloading data for 20191219.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20191217
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191217 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191218
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191218 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191219
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191219 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #18 out of 27
+__________________________________
+
+Downloading data for 20191220.0200
+Downloading data for 20191220.0800
+Downloading data for 20191220.1400
+Downloading data for 20191220.2000
+
+Downloading data for 20191221.0200
+Downloading data for 20191221.0800
+Downloading data for 20191221.1400
+Downloading data for 20191221.2000
+
+Downloading data for 20191222.0200
+Downloading data for 20191222.0800
+Downloading data for 20191222.1400
+Downloading data for 20191222.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20191220
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191220 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191221
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191221 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191222
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191222 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #21 out of 27
+__________________________________
+
+Downloading data for 20191223.0200
+Downloading data for 20191223.0800
+Downloading data for 20191223.1400
+Downloading data for 20191223.2000
+
+Downloading data for 20191224.0200
+Downloading data for 20191224.0800
+Downloading data for 20191224.1400
+Downloading data for 20191224.2000
+
+Downloading data for 20191225.0200
+Downloading data for 20191225.0800
+Downloading data for 20191225.1400
+Downloading data for 20191225.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20191223
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191223 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191224
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191224 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191225
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191225 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #24 out of 27
+__________________________________
+
+Downloading data for 20191226.0200
+Downloading data for 20191226.0800
+Downloading data for 20191226.1400
+Downloading data for 20191226.2000
+
+Downloading data for 20191227.0200
+Downloading data for 20191227.0800
+Downloading data for 20191227.1400
+Downloading data for 20191227.2000
+
+Downloading data for 20191228.0200
+Downloading data for 20191228.0800
+Downloading data for 20191228.1400
+Downloading data for 20191228.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20191226
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191226 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191227
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191227 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191228
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191228 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #27 out of 27
+__________________________________
+
+Downloading data for 20191229.0200
+Downloading data for 20191229.0800
+Downloading data for 20191229.1400
+Downloading data for 20191229.2000
+
+Downloading data for 20191230.0200
+Downloading data for 20191230.0800
+Downloading data for 20191230.1400
+Downloading data for 20191230.2000
+
+Downloading data for 20191231.0200
+Downloading data for 20191231.0800
+Downloading data for 20191231.1400
+Downloading data for 20191231.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20191229
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191229 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191230
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191230 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20191231
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20191231 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Donwloaded & imported data into pickle dict for 30 days
+
+COMPLETED PHASE 1 successfully!
+Sending an email
+
+Now generating ISP_ASN...
+
+Check new ISP_ASN folder for files with unique prefixes!
+
+COMPLETED PHASE 2 successfully!
+Sending an email
+
+Making CSV files now...
+
+Making CSV for ACTFIBERNET_131269
+Making CSV for AIRLINE_132978
+Making CSV for AIRNET_132540
+Making CSV for AIRTEL-BHARTI_9498
+Making CSV for AIRTEL-GPRS_45609
+Making CSV for AIRTEL-TELE_24560
+Making CSV for ALEGRA_136902
+Making CSV for ALLIANCE_23860
+Making CSV for ALWAR_134280
+Making CSV for ANI_132116
+Making CSV for BALAJI_139525
+Making CSV for BSNL_9829
+Making CSV for CLICK_136361
+Making CSV for DEN_45184
+Making CSV for D-VOIS_45769
+Making CSV for ETH-EXPRESS_134053
+Making CSV for EXCITEL_133982
+Making CSV for FUSION-NET_134375
+Making CSV for GTPL_135257
+Making CSV for HATHWAY_17488
+Making CSV for HCIN_140121
+Making CSV for ICONNECT_135189
+Making CSV for IDEA_45271
+Making CSV for IKON_134908
+Making CSV for ISHAN_133977
+Making CSV for JAIPUR_137659
+Making CSV for JDM_134341
+Making CSV for JETSPOT_134325
+Making CSV for JETWAY_134913
+Making CSV for JIO_55836
+Making CSV for JOISTER_135846
+Making CSV for KAPPA_45433
+Making CSV for KOTA_134875
+Making CSV for LUCKY_135866
+Making CSV for MAKS_134295
+Making CSV for MTNL_17813
+Making CSV for NAMOH_138263
+Making CSV for NETFLIX-DURGA_136292
+Making CSV for NEXTRA_58640
+Making CSV for ORANGE_55341
+Making CSV for ORTEL_23772
+Making CSV for PACENET_23682
+Making CSV for PERFECT_132323
+Making CSV for PLUSNET_133234
+Making CSV for RAGSAA_134917
+Making CSV for R-COM_18101
+Making CSV for R-NET_134337
+Making CSV for ROYAL_137622
+Making CSV for SAMPARK_133232
+Making CSV for SBR_133989
+Making CSV for SHIVRAJ_133983
+Making CSV for SIFY_9583
+Making CSV for SIKKA_45942
+Making CSV for SITI_17747
+Making CSV for SKYNET_132566
+Making CSV for SMARTLINK_55879
+Making CSV for SPACENET_45232
+Making CSV for SPEEDNET_135760
+Making CSV for SPIDERLINK_134928
+Making CSV for SUNRAY_134028
+Making CSV for SWASTIK_133724
+Making CSV for TATA_4755
+Making CSV for TATA-SKY_134674
+Making CSV for TATA-TELE_45820
+Making CSV for T-COM_17908
+Making CSV for T-COM-2_10199
+Making CSV for TCS_131265
+Making CSV for TIKONA_45528
+Making CSV for TOUCHNET_135693
+Making CSV for UCN_133007
+Making CSV for VIVA_55806
+Making CSV for VODAFONE_38266
+Making CSV for VODA-IDEA_55410
+Making CSV for WEFE_133695
+Making CSV for WINET_135696
+Making CSV for WISHNET_45775
+Making CSV for WOW_133590
+Making CSV for YOU-BROAD_18207
+Making CSV for ZAPBYTES_133652
+
+COMPLETED PHASE 3 successfully!
+Sending an email
+Making graphs now...
+Making graphs from FILE : ACTFIBERNET_131269_database.csv
+Making graphs from FILE : AIRLINE_132978_database.csv
+Making graphs from FILE : AIRNET_132540_database.csv
+Making graphs from FILE : AIRTEL-BHARTI_9498_database.csv
+Making graphs from FILE : AIRTEL-GPRS_45609_database.csv
+Making graphs from FILE : AIRTEL-TELE_24560_database.csv
+Making graphs from FILE : ALEGRA_136902_database.csv
+Making graphs from FILE : ALLIANCE_23860_database.csv
+Making graphs from FILE : ALWAR_134280_database.csv
+Making graphs from FILE : ANI_132116_database.csv
+Making graphs from FILE : BALAJI_139525_database.csv
+Making graphs from FILE : BSNL_9829_database.csv
+Making graphs from FILE : CLICK_136361_database.csv
+Making graphs from FILE : DEN_45184_database.csv
+Making graphs from FILE : D-VOIS_45769_database.csv
+Making graphs from FILE : ETH-EXPRESS_134053_database.csv
+Making graphs from FILE : EXCITEL_133982_database.csv
+Making graphs from FILE : FUSION-NET_134375_database.csv
+Making graphs from FILE : GTPL_135257_database.csv
+Making graphs from FILE : HATHWAY_17488_database.csv
+Making graphs from FILE : HCIN_140121_database.csv
+Making graphs from FILE : ICONNECT_135189_database.csv
+Making graphs from FILE : IDEA_45271_database.csv
+Making graphs from FILE : IKON_134908_database.csv
+Making graphs from FILE : ISHAN_133977_database.csv
+Making graphs from FILE : JAIPUR_137659_database.csv
+Making graphs from FILE : JDM_134341_database.csv
+Making graphs from FILE : JETSPOT_134325_database.csv
+Making graphs from FILE : JETWAY_134913_database.csv
+Making graphs from FILE : JIO_55836_database.csv
+Making graphs from FILE : JOISTER_135846_database.csv
+Making graphs from FILE : KAPPA_45433_database.csv
+Making graphs from FILE : KOTA_134875_database.csv
+Making graphs from FILE : LUCKY_135866_database.csv
+Making graphs from FILE : MAKS_134295_database.csv
+Making graphs from FILE : MTNL_17813_database.csv
+Making graphs from FILE : NAMOH_138263_database.csv
+Making graphs from FILE : NETFLIX-DURGA_136292_database.csv
+Making graphs from FILE : NEXTRA_58640_database.csv
+Making graphs from FILE : ORANGE_55341_database.csv
+Making graphs from FILE : ORTEL_23772_database.csv
+Making graphs from FILE : PACENET_23682_database.csv
+Making graphs from FILE : PERFECT_132323_database.csv
+Making graphs from FILE : PLUSNET_133234_database.csv
+Making graphs from FILE : RAGSAA_134917_database.csv
+Making graphs from FILE : R-COM_18101_database.csv
+Making graphs from FILE : R-NET_134337_database.csv
+Making graphs from FILE : ROYAL_137622_database.csv
+Making graphs from FILE : SAMPARK_133232_database.csv
+Making graphs from FILE : SBR_133989_database.csv
+Making graphs from FILE : SHIVRAJ_133983_database.csv
+Making graphs from FILE : SIFY_9583_database.csv
+Making graphs from FILE : SIKKA_45942_database.csv
+Making graphs from FILE : SITI_17747_database.csv
+Making graphs from FILE : SKYNET_132566_database.csv
+Making graphs from FILE : SMARTLINK_55879_database.csv
+Making graphs from FILE : SPACENET_45232_database.csv
+Making graphs from FILE : SPEEDNET_135760_database.csv
+Making graphs from FILE : SPIDERLINK_134928_database.csv
+Making graphs from FILE : SUNRAY_134028_database.csv
+Making graphs from FILE : SWASTIK_133724_database.csv
+Making graphs from FILE : TATA_4755_database.csv
+Making graphs from FILE : TATA-SKY_134674_database.csv
+Making graphs from FILE : TATA-TELE_45820_database.csv
+Making graphs from FILE : T-COM_17908_database.csv
+Making graphs from FILE : T-COM-2_10199_database.csv
+Making graphs from FILE : TCS_131265_database.csv
+Making graphs from FILE : TIKONA_45528_database.csv
+Making graphs from FILE : TOUCHNET_135693_database.csv
+Making graphs from FILE : UCN_133007_database.csv
+Making graphs from FILE : VIVA_55806_database.csv
+Making graphs from FILE : VODAFONE_38266_database.csv
+Making graphs from FILE : VODA-IDEA_55410_database.csv
+Making graphs from FILE : WEFE_133695_database.csv
+Making graphs from FILE : WINET_135696_database.csv
+Making graphs from FILE : WISHNET_45775_database.csv
+Making graphs from FILE : WOW_133590_database.csv
+Making graphs from FILE : YOU-BROAD_18207_database.csv
+Making graphs from FILE : ZAPBYTES_133652_database.csv
+DONE!
+Now extracting EXTRA graphs...
+
+COMPLETED FINAL PHASE 4 successfully!
+Sending final email
+
+Everything is ready for you!
+
+___________________________________________
+
