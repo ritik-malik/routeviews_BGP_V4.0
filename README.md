@@ -48,7 +48,7 @@ To get better insight of actual approach & hypothesis -
 * Each script has a little doc inside <br>
 Start from `pipeline.sh`, it will lead to all other scripts
 
-#### Some interesting stats :
+### Some interesting stats :
 The results are out from new pipeline for ribs from `14th Jan` to `12th Feb` \(for India) :- <br>
 \(This is important to analyse as these are the results from the 1st run) <br>
 
