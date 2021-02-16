@@ -45,7 +45,36 @@ This array is passed to master.sh <br>
 #### What's next?
 To get better insight of actual approach & hypothesis -
 * Read plan.txt
-* Each script has a little doc inside
+* Each script has a little doc inside <br>
+Start from `pipeline.sh`, it will lead to all other scripts
+
+#### Some interesting stats :
+The results are out from new pipeline for ribs from `14th Jan` to `12th Feb` \(for India) :- <br>
+\(This is important to analyse as these are the results from the 1st run) <br>
+
+**Some good stuff -**
+* New pipeline now runs in 7 hours, compared to 40 hours previously!
+* The hypothesis was right, we got overall more prefixes from ribs than from CIDR,<br>
+`CIDR prefixes -> 19884` <br>
+`Ribs prefixes -> 20720` <br>
+(834 new prefixes)
+* Storage space or RAM is not an issue now , new pipeline is quite optimized <br>
+Storage < 500 MB, RAM < 6 GB
+* We got more number of prefixes with dips > 20% in ribs <br>
+`Old pipeline : 356` <br>
+`New pipeline : 1205` <br>
+And that's insane! <br>
+
+**Some bad news -**
+* There seems to be very little correlation, but could be just coincidence, <br>
+Only a very small fraction of graphs falling in the right spot, on the days of shutdown <br>
+\(this is only for India) <br>
+\(we got perfect correlatin for Iran & Myanmar) <br>
+
+**A major concern :** <br>
+We still don't get it...?<br>
+If these dips in graphs are not for shutdowns, then why are they for though, <br>
+We didn't see same pattern anywhere else! <br>
 
 _**Update this doc**_
 
