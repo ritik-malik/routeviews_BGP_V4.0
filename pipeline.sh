@@ -105,7 +105,7 @@ cat target_ASN.txt
 
 
 echo -e "\n____________________________________________________________\n"
-echo -e '\nAre you sure you want to proceed?\nOnce started the code will run for 3/2 day,\nonly way to stop it is to kill through\n`ps -ef | grep master.sh`\n& then `kill -9 PID`...\n'
+echo -e '\nAre you sure you want to proceed?\nOnce started the code will run for 5-6 hours,\nonly way to stop it is to kill through\n`ps -ef | grep master.sh`\n& then `kill -9 PID`...\n'
 echo -e "____________________________________________________________\n"
 
 read -p 'Please Type : "YES START THE PIPELINE" : ' ans
