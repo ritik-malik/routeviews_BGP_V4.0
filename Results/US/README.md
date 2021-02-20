@@ -4,6 +4,7 @@
 
 ## Useful links
 
+* https://en.wikipedia.org/wiki/2021_Texas_power_crisis
 * https://poweroutage.us/
 * https://www.highspeedinternet.com/tx
 * https://istheservicedown.com/companies
