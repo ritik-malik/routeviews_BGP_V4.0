@@ -4,18 +4,26 @@
 
 ## Results
 
+* Overall stats ->
+
 Month       |   EXTRA   |   GRAPHS  |   Total
 ------------|-----------|-----------|--------
-**202101**  |   600     |   146     |   746
-**202102**  |   535     |   235     |   770
+**202101**  |   621     |   146     |   767
+**202102**  |   556     |   235     |   791
 
 * Prefixes with geolocation of Texas - using maxmind Geo2IP API
 
 Month       |   EXTRA   |   GRAPHS  |   Total
 ------------|-----------|-----------|--------
-**202101**  |   ---     |   15      |   ---
-**202102**  |   ---     |   89      |   ---
+**202101**  |     415   |   15      |   430
+**202102**  |     361   |   90      |   451
 
+* Prefixes with geolocation of Texas - using IPinfo API
+
+Month       |   EXTRA   |   GRAPHS  |   Total
+------------|-----------|-----------|--------
+**202101**  |   452     |   20      |   472
+**202102**  |   401     |   116     |   517
 
 
 
