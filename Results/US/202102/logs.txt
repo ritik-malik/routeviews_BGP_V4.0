@@ -1,0 +1,734 @@
+<<<-------This is the log file maintained by the program-------->>>
+
+Current value choosen by user
+20210123
+20210124
+20210125
+20210126
+20210127
+20210128
+20210129
+20210130
+20210131
+20210201
+20210202
+20210203
+20210204
+20210205
+20210206
+20210207
+20210208
+20210209
+20210210
+20210211
+20210212
+20210213
+20210214
+20210215
+20210216
+20210217
+20210218
+20210219
+20210220
+20210221
+0200
+0800
+1400
+2000
+20
+Target ASes in target_ASN.txt :
+COMCAST_7922
+ATT_7018
+CENTURYLINK_209
+SUDDENLINK_19108
+EARTHLINK_3703
+FRONTIER_5650
+WINDSTREAM_7029
+GRANDE_7459
+COLORADO-COMM_27235
+GOOGLE-LLC_15169
+GOOGLE-FIBRE_16591
+SANTA-ROSA_32391
+CONSOLIDATED-COMM_14051
+TEXAS-UNI_3354
+TEXAS-UNI-AUSTIN_3354
+TEXAS-UNI-AM_1970
+TEXAS-NE_15054
+TEXAS-GIGA-POP_22645
+
+Now calling master.sh for main task...
+
+Iteration number #0 out of 27
+__________________________________
+
+Downloading data for 20210123.0200
+Downloading data for 20210123.0800
+Downloading data for 20210123.1400
+Downloading data for 20210123.2000
+
+Downloading data for 20210124.0200
+Downloading data for 20210124.0800
+Downloading data for 20210124.1400
+Downloading data for 20210124.2000
+
+Downloading data for 20210125.0200
+Downloading data for 20210125.0800
+Downloading data for 20210125.1400
+Downloading data for 20210125.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20210123
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210123 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210124
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210124 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210125
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210125 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #3 out of 27
+__________________________________
+
+Downloading data for 20210126.0200
+Downloading data for 20210126.0800
+Downloading data for 20210126.1400
+Downloading data for 20210126.2000
+
+Downloading data for 20210127.0200
+Downloading data for 20210127.0800
+Downloading data for 20210127.1400
+Downloading data for 20210127.2000
+
+Downloading data for 20210128.0200
+Downloading data for 20210128.0800
+Downloading data for 20210128.1400
+Downloading data for 20210128.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20210126
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210126 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210127
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210127 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210128
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210128 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #6 out of 27
+__________________________________
+
+Downloading data for 20210129.0200
+Downloading data for 20210129.0800
+Downloading data for 20210129.1400
+Downloading data for 20210129.2000
+
+Downloading data for 20210130.0200
+Downloading data for 20210130.0800
+Downloading data for 20210130.1400
+Downloading data for 20210130.2000
+
+Downloading data for 20210131.0200
+Downloading data for 20210131.0800
+Downloading data for 20210131.1400
+Downloading data for 20210131.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20210129
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210129 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210130
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210130 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210131
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210131 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #9 out of 27
+__________________________________
+
+Downloading data for 20210201.0200
+Downloading data for 20210201.0800
+Downloading data for 20210201.1400
+Downloading data for 20210201.2000
+
+Downloading data for 20210202.0200
+Downloading data for 20210202.0800
+Downloading data for 20210202.1400
+Downloading data for 20210202.2000
+
+Downloading data for 20210203.0200
+Downloading data for 20210203.0800
+Downloading data for 20210203.1400
+Downloading data for 20210203.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20210201
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210201 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210202
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210202 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210203
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210203 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #12 out of 27
+__________________________________
+
+Downloading data for 20210204.0200
+Downloading data for 20210204.0800
+Downloading data for 20210204.1400
+Downloading data for 20210204.2000
+
+Downloading data for 20210205.0200
+Downloading data for 20210205.0800
+Downloading data for 20210205.1400
+Downloading data for 20210205.2000
+
+Downloading data for 20210206.0200
+Downloading data for 20210206.0800
+Downloading data for 20210206.1400
+Downloading data for 20210206.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20210204
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210204 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210205
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210205 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210206
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210206 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #15 out of 27
+__________________________________
+
+Downloading data for 20210207.0200
+Downloading data for 20210207.0800
+Downloading data for 20210207.1400
+Downloading data for 20210207.2000
+
+Downloading data for 20210208.0200
+Downloading data for 20210208.0800
+Downloading data for 20210208.1400
+Downloading data for 20210208.2000
+
+Downloading data for 20210209.0200
+Downloading data for 20210209.0800
+Downloading data for 20210209.1400
+Downloading data for 20210209.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20210207
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210207 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210208
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210208 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210209
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210209 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #18 out of 27
+__________________________________
+
+Downloading data for 20210210.0200
+Downloading data for 20210210.0800
+Downloading data for 20210210.1400
+Downloading data for 20210210.2000
+
+Downloading data for 20210211.0200
+Downloading data for 20210211.0800
+Downloading data for 20210211.1400
+Downloading data for 20210211.2000
+
+Downloading data for 20210212.0200
+Downloading data for 20210212.0800
+Downloading data for 20210212.1400
+Downloading data for 20210212.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20210210
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210210 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210211
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210211 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210212
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210212 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #21 out of 27
+__________________________________
+
+Downloading data for 20210213.0200
+Downloading data for 20210213.0800
+Downloading data for 20210213.1400
+Downloading data for 20210213.2000
+
+Downloading data for 20210214.0200
+Downloading data for 20210214.0800
+Downloading data for 20210214.1400
+Downloading data for 20210214.2000
+
+Downloading data for 20210215.0200
+Downloading data for 20210215.0800
+Downloading data for 20210215.1400
+Downloading data for 20210215.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20210213
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210213 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210214
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210214 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210215
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210215 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #24 out of 27
+__________________________________
+
+Downloading data for 20210216.0200
+Downloading data for 20210216.0800
+Downloading data for 20210216.1400
+Downloading data for 20210216.2000
+
+Downloading data for 20210217.0200
+Downloading data for 20210217.0800
+Downloading data for 20210217.1400
+Downloading data for 20210217.2000
+
+Downloading data for 20210218.0200
+Downloading data for 20210218.0800
+Downloading data for 20210218.1400
+Downloading data for 20210218.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20210216
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210216 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210217
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210217 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210218
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210218 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #27 out of 27
+__________________________________
+
+Downloading data for 20210219.0200
+Downloading data for 20210219.0800
+Downloading data for 20210219.1400
+Downloading data for 20210219.2000
+
+Downloading data for 20210220.0200
+Downloading data for 20210220.0800
+Downloading data for 20210220.1400
+Downloading data for 20210220.2000
+
+Downloading data for 20210221.0200
+Downloading data for 20210221.0800
+Downloading data for 20210221.1400
+Downloading data for 20210221.2000
+
+Downloading data for 3 days simultaneously...
+Done!
+
+House keeping in 20210219
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210219 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210220
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210220 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20210221
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Remove & rename
+5. Removing IPv6 dumps
+6. Removing bogus dumps
+
+House keeping done successfully
+Now importing data for 20210221 in py dictioneries, 4 dicts at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Donwloaded & imported data into pickle dict for 30 days
+
+COMPLETED PHASE 1 successfully!
+Sending an email
+
+Now generating ISP_ASN...
+
+Check new ISP_ASN folder for files with unique prefixes!
+
+COMPLETED PHASE 2 successfully!
+Sending an email
+
+Making CSV files now...
+
+Making CSV for ATT_7018
+Making CSV for CENTURYLINK_209
+Making CSV for COLORADO-COMM_27235
+Making CSV for COMCAST_7922
+Making CSV for CONSOLIDATED-COMM_14051
+Making CSV for EARTHLINK_3703
+Making CSV for FRONTIER_5650
+Making CSV for GOOGLE-FIBRE_16591
+Making CSV for GOOGLE-LLC_15169
+Making CSV for GRANDE_7459
+Making CSV for SANTA-ROSA_32391
+Making CSV for SUDDENLINK_19108
+Making CSV for TEXAS-GIGA-POP_22645
+Making CSV for TEXAS-NE_15054
+Making CSV for TEXAS-UNI_3354
+Making CSV for TEXAS-UNI-AM_1970
+Making CSV for TEXAS-UNI-AUSTIN_3354
+Making CSV for WINDSTREAM_7029
+
+COMPLETED PHASE 3 successfully!
+Sending an email
+Making graphs now...
+Making graphs from FILE : ATT_7018_database.csv
+Making graphs from FILE : CENTURYLINK_209_database.csv
+Making graphs from FILE : COLORADO-COMM_27235_database.csv
+Making graphs from FILE : COMCAST_7922_database.csv
+Making graphs from FILE : CONSOLIDATED-COMM_14051_database.csv
+Making graphs from FILE : EARTHLINK_3703_database.csv
+Making graphs from FILE : FRONTIER_5650_database.csv
+Making graphs from FILE : GOOGLE-FIBRE_16591_database.csv
+Making graphs from FILE : GOOGLE-LLC_15169_database.csv
+Making graphs from FILE : GRANDE_7459_database.csv
+Making graphs from FILE : SANTA-ROSA_32391_database.csv
+Making graphs from FILE : SUDDENLINK_19108_database.csv
+Making graphs from FILE : TEXAS-GIGA-POP_22645_database.csv
+Making graphs from FILE : TEXAS-NE_15054_database.csv
+Making graphs from FILE : TEXAS-UNI_3354_database.csv
+Making graphs from FILE : TEXAS-UNI-AM_1970_database.csv
+Making graphs from FILE : TEXAS-UNI-AUSTIN_3354_database.csv
+Making graphs from FILE : WINDSTREAM_7029_database.csv
+DONE!
+Now extracting EXTRA graphs...
+
+COMPLETED FINAL PHASE 4 successfully!
+Sending final email
+
+Everything is ready for you!
+
+___________________________________________
+
