@@ -28,17 +28,16 @@ wait_buffer=()
 echo "DONE!" >> logs.txt
 echo "Now extracting EXTRA graphs..." >> logs.txt
 
-################ Move extra graph in a new folder
+################ Make new folders & move all the graphs
 
-mkdir EXTRA
-for i in $(find . -name *EXTRA.html)
-do mv $i EXTRA; done
+mkdir EXTRA GRAPHS
+cp -r *_graphs GRAPHS
+mv *_graphs EXTRA
 
-################ Move all results in new folder
+################ Delete *EXTRA & !*EXTRA in folders
 
-mkdir GRAPHS RESULTS
-mv *_graphs GRAPHS
-mv GRAPHS EXTRA RESULTS
+for i in $(find GRAPHS -name *EXTRA.html); do rm $i; done
+for i in $(find EXTRA -not -name "*EXTRA.html" -type f); do rm $i; done
 
 ##########################################################
 
