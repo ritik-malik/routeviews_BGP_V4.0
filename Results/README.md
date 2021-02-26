@@ -3,12 +3,12 @@ For previous results see older pipeline V30. <br>
 
 #### Case studies so far ->
 * **Old pipeline** : India, Britain, Iran <br>
-* **New pipeline** : Myanmar <br>
+* **New pipeline** : Myanmar, India, Uganda, US <br>
 
 <br>
 
 #### Successful Quests so far ->
-Iran, Myanmar <br>
+Iran, Myanmar, Uganda, US <br>
 
 
 
