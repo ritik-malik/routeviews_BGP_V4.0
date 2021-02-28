@@ -34,8 +34,8 @@ import geoip2.webservice
 import ipinfo
 
 # set API params
-client = geoip2.webservice.Client(447809, 'fPcmU1LrNeljuyaV')
-handler = ipinfo.getHandler(access_token='30e2106bb3573e', request_options={'timeout': 30})
+client = geoip2.webservice.Client(ID, 'passwd')
+handler = ipinfo.getHandler(access_token='access_token', request_options={'timeout': 30})
 
 ### CLI ARGS for [GEOLOCATION method], [prefix folder] & [output CSV filename]
 API = argv[1]
