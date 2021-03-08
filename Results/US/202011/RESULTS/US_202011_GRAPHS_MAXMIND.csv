@@ -1,0 +1,128 @@
+ISP_ASN, prefix, {geolocation}
+ATT_AS7018, 12.64.0.0/11, {}
+ATT_AS7018, 209.54.109.0/24, {'209.54.109.50': {'city': 'Los Angeles', 'state': 'California'}, '209.54.109.150': {'city': 'Los Angeles', 'state': 'California'}}
+ATT_AS7018, 107.227.80.0/24, {'107.227.80.50': {'city': None, 'state': None}, '107.227.80.150': {'city': None, 'state': None}}
+ATT_AS7018, 12.160.0.0/11, {}
+ATT_AS7018, 32.48.0.0/16, {'32.48.0.100': {'city': None, 'state': None}, '32.48.120.100': {'city': None, 'state': None}, '32.48.250.100': {'city': None, 'state': None}}
+ATT_AS7018, 12.192.0.0/11, {}
+ATT_AS7018, 107.225.160.0/22, {'107.225.160.100': {'city': None, 'state': None}, '107.225.163.100': {'city': None, 'state': None}}
+ATT_AS7018, 12.32.0.0/11, {}
+ATT_AS7018, 15.12.72.0/22, {'15.12.72.100': {'city': None, 'state': None}, '15.12.75.100': {'city': None, 'state': None}}
+ATT_AS7018, 108.192.0.0/11, {}
+ATT_AS7018, 12.128.0.0/11, {}
+ATT_AS7018, 209.54.111.0/24, {'209.54.111.50': {'city': 'Los Angeles', 'state': 'California'}, '209.54.111.150': {'city': 'Los Angeles', 'state': 'California'}}
+ATT_AS7018, 107.225.152.0/22, {'107.225.152.100': {'city': None, 'state': None}, '107.225.155.100': {'city': None, 'state': None}}
+ATT_AS7018, 192.245.119.0/24, {'192.245.119.50': {'city': None, 'state': None}, '192.245.119.150': {'city': None, 'state': None}}
+ATT_AS7018, 107.125.39.0/24, {'107.125.39.50': {'city': None, 'state': None}, '107.125.39.150': {'city': None, 'state': None}}
+ATT_AS7018, 209.54.110.0/24, {'209.54.110.50': {'city': 'Los Angeles', 'state': 'California'}, '209.54.110.150': {'city': 'Los Angeles', 'state': 'California'}}
+ATT_AS7018, 107.225.12.0/22, {'107.225.12.100': {'city': None, 'state': None}, '107.225.15.100': {'city': None, 'state': None}}
+ATT_AS7018, 161.145.48.0/23, {'161.145.48.100': {'city': None, 'state': None}, '161.145.49.100': {'city': None, 'state': None}}
+ATT_AS7018, 15.0.112.0/20, {'15.0.112.100': {'city': None, 'state': None}, '15.0.118.100': {'city': None, 'state': None}, '15.0.124.100': {'city': None, 'state': None}}
+ATT_AS7018, 107.225.252.0/22, {'107.225.252.100': {'city': None, 'state': None}, '107.225.255.100': {'city': None, 'state': None}}
+ATT_AS7018, 12.0.0.0/11, {}
+ATT_AS7018, 209.54.108.0/24, {'209.54.108.50': {'city': 'Los Angeles', 'state': 'California'}, '209.54.108.150': {'city': 'Los Angeles', 'state': 'California'}}
+ATT_AS7018, 15.0.104.0/21, {'15.0.104.100': {'city': None, 'state': None}, '15.0.107.100': {'city': None, 'state': None}, '15.0.110.100': {'city': None, 'state': None}}
+ATT_AS7018, 107.125.48.0/24, {'107.125.48.50': {'city': None, 'state': None}, '107.125.48.150': {'city': None, 'state': None}}
+ATT_AS7018, 192.56.53.0/24, {'192.56.53.50': {'city': None, 'state': None}, '192.56.53.150': {'city': None, 'state': None}}
+ATT_AS7018, 32.128.0.0/11, {}
+ATT_AS7018, 32.44.0.0/14, {}
+ATT_AS7018, 108.224.0.0/11, {}
+ATT_AS7018, 204.141.132.0/22, {'204.141.132.100': {'city': 'Haddonfield', 'state': 'New Jersey'}, '204.141.135.100': {'city': 'Haddonfield', 'state': 'New Jersey'}}
+ATT_AS7018, 12.224.0.0/11, {}
+ATT_AS7018, 199.178.198.0/24, {'199.178.198.50': {'city': 'Ypsilanti', 'state': 'Michigan'}, '199.178.198.150': {'city': 'Ypsilanti', 'state': 'Michigan'}}
+ATT_AS7018, 107.225.162.0/24, {'107.225.162.50': {'city': None, 'state': None}, '107.225.162.150': {'city': None, 'state': None}}
+GRANDE_AS7459, 216.188.229.0/24, {'216.188.229.50': {'city': 'Midland', 'state': 'Texas'}, '216.188.229.150': {'city': 'Midland', 'state': 'Texas'}}
+COMCAST_AS7922, 209.54.100.0/24, {'209.54.100.50': {'city': 'Los Angeles', 'state': 'California'}, '209.54.100.150': {'city': 'Los Angeles', 'state': 'California'}}
+COMCAST_AS7922, 107.180.160.0/19, {'107.180.160.100': {'city': 'Indianapolis', 'state': 'Indiana'}, '107.180.175.100': {'city': 'Fraser', 'state': 'Michigan'}, '107.180.190.100': {'city': 'Lakewood', 'state': 'New Jersey'}}
+COMCAST_AS7922, 96.128.0.0/11, {}
+COMCAST_AS7922, 96.160.0.0/11, {}
+COMCAST_AS7922, 107.180.192.0/20, {'107.180.192.100': {'city': None, 'state': None}, '107.180.198.100': {'city': None, 'state': None}, '107.180.204.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 98.224.0.0/11, {}
+COMCAST_AS7922, 209.54.109.0/24, {'209.54.109.50': {'city': 'Los Angeles', 'state': 'California'}, '209.54.109.150': {'city': 'Los Angeles', 'state': 'California'}}
+COMCAST_AS7922, 216.162.193.0/24, {'216.162.193.50': {'city': None, 'state': None}, '216.162.193.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 73.224.0.0/11, {}
+COMCAST_AS7922, 216.162.208.0/24, {'216.162.208.50': {'city': None, 'state': None}, '216.162.208.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 104.223.12.0/24, {'104.223.12.50': {'city': 'Los Angeles', 'state': 'California'}, '104.223.12.150': {'city': 'Los Angeles', 'state': 'California'}}
+COMCAST_AS7922, 216.162.215.0/24, {'216.162.215.50': {'city': None, 'state': None}, '216.162.215.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 208.65.84.0/24, {'208.65.84.50': {'city': None, 'state': None}, '208.65.84.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 216.162.194.0/23, {'216.162.194.100': {'city': None, 'state': None}, '216.162.195.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 208.65.85.0/24, {'208.65.85.50': {'city': None, 'state': None}, '208.65.85.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 209.54.102.0/24, {'209.54.102.50': {'city': 'Los Angeles', 'state': 'California'}, '209.54.102.150': {'city': 'Los Angeles', 'state': 'California'}}
+COMCAST_AS7922, 170.39.172.0/24, {'170.39.172.50': {'city': 'Huntington Station', 'state': 'New York'}, '170.39.172.150': {'city': 'Huntington Station', 'state': 'New York'}}
+COMCAST_AS7922, 216.162.202.0/23, {'216.162.202.100': {'city': None, 'state': None}, '216.162.203.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 170.39.173.0/24, {'170.39.173.50': {'city': 'Huntington Station', 'state': 'New York'}, '170.39.173.150': {'city': 'Huntington Station', 'state': 'New York'}}
+COMCAST_AS7922, 98.192.0.0/11, {}
+COMCAST_AS7922, 209.54.111.0/24, {'209.54.111.50': {'city': 'Los Angeles', 'state': 'California'}, '209.54.111.150': {'city': 'Los Angeles', 'state': 'California'}}
+COMCAST_AS7922, 104.223.3.0/24, {'104.223.3.50': {'city': 'Los Angeles', 'state': 'California'}, '104.223.3.150': {'city': 'Los Angeles', 'state': 'California'}}
+COMCAST_AS7922, 73.128.0.0/11, {}
+COMCAST_AS7922, 50.200.194.0/24, {'50.200.194.50': {'city': 'Englewood', 'state': 'Colorado'}, '50.200.194.150': {'city': 'Englewood', 'state': 'Colorado'}}
+COMCAST_AS7922, 209.54.110.0/24, {'209.54.110.50': {'city': 'Los Angeles', 'state': 'California'}, '209.54.110.150': {'city': 'Los Angeles', 'state': 'California'}}
+COMCAST_AS7922, 50.128.0.0/11, {}
+COMCAST_AS7922, 216.162.212.0/24, {'216.162.212.50': {'city': None, 'state': None}, '216.162.212.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 208.65.87.0/24, {'208.65.87.50': {'city': None, 'state': None}, '208.65.87.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 50.192.0.0/11, {}
+COMCAST_AS7922, 209.54.108.0/24, {'209.54.108.50': {'city': 'Los Angeles', 'state': 'California'}, '209.54.108.150': {'city': 'Los Angeles', 'state': 'California'}}
+COMCAST_AS7922, 209.54.107.0/24, {'209.54.107.50': {'city': 'Los Angeles', 'state': 'California'}, '209.54.107.150': {'city': 'Los Angeles', 'state': 'California'}}
+COMCAST_AS7922, 73.0.0.0/11, {}
+COMCAST_AS7922, 50.160.0.0/11, {}
+COMCAST_AS7922, 216.162.196.0/22, {'216.162.196.100': {'city': None, 'state': None}, '216.162.199.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 209.54.101.0/24, {'209.54.101.50': {'city': 'Los Angeles', 'state': 'California'}, '209.54.101.150': {'city': 'Los Angeles', 'state': 'California'}}
+COMCAST_AS7922, 199.15.92.0/22, {'199.15.92.100': {'city': 'Hanover', 'state': 'Minnesota'}, '199.15.95.100': {'city': 'Hanover', 'state': 'Minnesota'}}
+COMCAST_AS7922, 170.39.174.0/24, {'170.39.174.50': {'city': 'Toms River', 'state': 'New Jersey'}, '170.39.174.150': {'city': 'Toms River', 'state': 'New Jersey'}}
+COMCAST_AS7922, 104.223.8.0/24, {'104.223.8.50': {'city': 'Los Angeles', 'state': 'California'}, '104.223.8.150': {'city': 'Los Angeles', 'state': 'California'}}
+COMCAST_AS7922, 170.39.175.0/24, {'170.39.175.50': {'city': 'Toms River', 'state': 'New Jersey'}, '170.39.175.150': {'city': 'Toms River', 'state': 'New Jersey'}}
+COMCAST_AS7922, 73.192.0.0/11, {}
+COMCAST_AS7922, 208.65.86.0/24, {'208.65.86.50': {'city': None, 'state': None}, '208.65.86.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 73.64.0.0/11, {}
+COMCAST_AS7922, 209.23.192.0/22, {'209.23.192.100': {'city': 'Park City', 'state': 'Utah'}, '209.23.195.100': {'city': 'Park City', 'state': 'Utah'}}
+COMCAST_AS7922, 73.96.0.0/11, {}
+COMCAST_AS7922, 50.224.0.0/11, {}
+COMCAST_AS7922, 104.223.7.0/24, {'104.223.7.50': {'city': 'Los Angeles', 'state': 'California'}, '104.223.7.150': {'city': 'Los Angeles', 'state': 'California'}}
+COMCAST_AS7922, 216.162.200.0/24, {'216.162.200.50': {'city': None, 'state': None}, '216.162.200.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 73.32.0.0/11, {}
+WINDSTREAM_AS7029, 23.172.160.0/24, {'23.172.160.50': {'city': 'Atlantic', 'state': 'Iowa'}, '23.172.160.150': {'city': 'Atlantic', 'state': 'Iowa'}}
+WINDSTREAM_AS7029, 198.102.80.0/23, {'198.102.80.100': {'city': None, 'state': 'Wisconsin'}, '198.102.81.100': {'city': None, 'state': 'Wisconsin'}}
+WINDSTREAM_AS7029, 207.222.3.0/24, {'207.222.3.50': {'city': 'Anniston', 'state': 'Alabama'}, '207.222.3.150': {'city': 'Weaver', 'state': 'Alabama'}}
+WINDSTREAM_AS7029, 167.160.158.0/24, {'167.160.158.50': {'city': 'Flagstaff', 'state': 'Arizona'}, '167.160.158.150': {'city': 'Flagstaff', 'state': 'Arizona'}}
+WINDSTREAM_AS7029, 209.242.46.0/24, {'209.242.46.50': {'city': None, 'state': None}, '209.242.46.150': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 209.96.202.0/23, {'209.96.202.100': {'city': 'Covington', 'state': 'Louisiana'}, '209.96.203.100': {'city': 'Covington', 'state': 'Louisiana'}}
+WINDSTREAM_AS7029, 66.0.13.0/24, {'66.0.13.50': {'city': 'Atlanta', 'state': 'Georgia'}, '66.0.13.150': {'city': 'Atlanta', 'state': 'Georgia'}}
+WINDSTREAM_AS7029, 208.139.169.0/24, {'208.139.169.50': {'city': None, 'state': None}, '208.139.169.150': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 63.239.29.0/24, {'63.239.29.50': {'city': 'Honolulu', 'state': 'Hawaii'}, '63.239.29.150': {'city': 'Honolulu', 'state': 'Hawaii'}}
+CENTURYLINK_AS209, 23.170.65.0/24, {'23.170.65.50': {'city': 'Eden', 'state': 'Utah'}, '23.170.65.150': {'city': 'Eden', 'state': 'Utah'}}
+CENTURYLINK_AS209, 75.171.18.0/24, {'75.171.18.50': {'city': 'Pekin', 'state': 'Illinois'}, '75.171.18.150': {'city': 'Pekin', 'state': 'Illinois'}}
+CENTURYLINK_AS209, 64.127.141.0/24, {'64.127.141.50': {'city': 'Franklin', 'state': 'Kentucky'}, '64.127.141.150': {'city': 'Franklin', 'state': 'Kentucky'}}
+CENTURYLINK_AS209, 66.208.143.0/24, {'66.208.143.50': {'city': 'Shreveport', 'state': 'Louisiana'}, '66.208.143.150': {'city': 'Shreveport', 'state': 'Louisiana'}}
+CENTURYLINK_AS209, 70.58.129.0/24, {'70.58.129.50': {'city': 'Lafayette', 'state': 'New Jersey'}, '70.58.129.150': {'city': 'Lafayette', 'state': 'New Jersey'}}
+CENTURYLINK_AS209, 66.112.106.0/24, {'66.112.106.50': {'city': 'Columbia', 'state': 'Missouri'}, '66.112.106.150': {'city': 'Columbia', 'state': 'Missouri'}}
+CENTURYLINK_AS209, 45.43.243.0/24, {'45.43.243.50': {'city': 'Duluth', 'state': 'Georgia'}, '45.43.243.150': {'city': 'Duluth', 'state': 'Georgia'}}
+CENTURYLINK_AS209, 162.242.4.0/24, {'162.242.4.50': {'city': 'Greenville', 'state': 'North Carolina'}, '162.242.4.150': {'city': 'Greenville', 'state': 'North Carolina'}}
+SUDDENLINK_AS19108, 64.72.51.0/24, {'64.72.51.50': {'city': 'Newton Falls', 'state': 'Ohio'}, '64.72.51.150': {'city': 'Newton Falls', 'state': 'Ohio'}}
+SUDDENLINK_AS19108, 47.209.56.0/22, {'47.209.56.100': {'city': 'Marina', 'state': 'California'}, '47.209.59.100': {'city': 'Seaside', 'state': 'California'}}
+SUDDENLINK_AS19108, 64.72.34.0/24, {'64.72.34.50': {'city': 'Lexington', 'state': 'Missouri'}, '64.72.34.150': {'city': 'Wellington', 'state': 'Missouri'}}
+SUDDENLINK_AS19108, 205.201.112.0/24, {'205.201.112.50': {'city': 'Stuttgart', 'state': 'Arkansas'}, '205.201.112.150': {'city': 'Stuttgart', 'state': 'Arkansas'}}
+SUDDENLINK_AS19108, 47.209.52.0/22, {'47.209.52.100': {'city': 'Seaside', 'state': 'California'}, '47.209.55.100': {'city': 'Seaside', 'state': 'California'}}
+SUDDENLINK_AS19108, 29.16.240.0/20, {'29.16.240.100': {'city': None, 'state': None}, '29.16.246.100': {'city': None, 'state': None}, '29.16.252.100': {'city': None, 'state': None}}
+SUDDENLINK_AS19108, 205.201.124.0/24, {'205.201.124.50': {'city': 'Stuttgart', 'state': 'Arkansas'}, '205.201.124.150': {'city': 'Stuttgart', 'state': 'Arkansas'}}
+SUDDENLINK_AS19108, 205.201.122.0/24, {'205.201.122.50': {'city': 'Boonville', 'state': 'Missouri'}, '205.201.122.150': {'city': 'Boonville', 'state': 'Missouri'}}
+SUDDENLINK_AS19108, 64.72.36.0/24, {'64.72.36.50': {'city': 'Boonville', 'state': 'Missouri'}, '64.72.36.150': {'city': 'Boonville', 'state': 'Missouri'}}
+SUDDENLINK_AS19108, 64.72.48.0/24, {'64.72.48.50': {'city': 'Stuttgart', 'state': 'Arkansas'}, '64.72.48.150': {'city': 'Stuttgart', 'state': 'Arkansas'}}
+SUDDENLINK_AS19108, 207.254.253.0/24, {'207.254.253.50': {'city': 'Stuttgart', 'state': 'Arkansas'}, '207.254.253.150': {'city': 'Stuttgart', 'state': 'Arkansas'}}
+SUDDENLINK_AS19108, 205.201.107.0/24, {'205.201.107.50': {'city': 'Boonville', 'state': 'Missouri'}, '205.201.107.150': {'city': 'Boonville', 'state': 'Missouri'}}
+SUDDENLINK_AS19108, 29.10.96.0/20, {'29.10.96.100': {'city': None, 'state': None}, '29.10.102.100': {'city': None, 'state': None}, '29.10.108.100': {'city': None, 'state': None}}
+SUDDENLINK_AS19108, 75.109.109.0/24, {'75.109.109.50': {'city': 'Burton', 'state': 'Ohio'}, '75.109.109.150': {'city': 'Newton Falls', 'state': 'Ohio'}}
+SUDDENLINK_AS19108, 75.109.90.0/24, {'75.109.90.50': {'city': 'Ravenna', 'state': 'Ohio'}, '75.109.90.150': {'city': 'Burton', 'state': 'Ohio'}}
+CONSOLIDATED-COMM_AS14051, 207.183.252.0/24, {'207.183.252.50': {'city': 'Elk Grove', 'state': 'California'}, '207.183.252.150': {'city': 'Elk Grove', 'state': 'California'}}
+GOOGLE-LLC_AS15169, 35.206.9.0/24, {'35.206.9.50': {'city': None, 'state': None}, '35.206.9.150': {'city': None, 'state': None}}
+GOOGLE-LLC_AS15169, 142.250.114.0/24, {'142.250.114.50': {'city': None, 'state': None}, '142.250.114.150': {'city': None, 'state': None}}
+GOOGLE-LLC_AS15169, 35.206.1.0/24, {'35.206.1.50': {'city': None, 'state': None}, '35.206.1.150': {'city': None, 'state': None}}
+GOOGLE-LLC_AS15169, 142.250.115.0/24, {'142.250.115.50': {'city': None, 'state': None}, '142.250.115.150': {'city': None, 'state': None}}
+GOOGLE-LLC_AS15169, 142.250.113.0/24, {'142.250.113.50': {'city': None, 'state': None}, '142.250.113.150': {'city': None, 'state': None}}
+GOOGLE-LLC_AS15169, 35.206.6.0/24, {'35.206.6.50': {'city': None, 'state': None}, '35.206.6.150': {'city': None, 'state': None}}
+GOOGLE-LLC_AS15169, 103.142.69.0/24, {'103.142.69.50': {'city': 'Dhaka', 'state': 'Dhaka'}, '103.142.69.150': {'city': 'Dhaka', 'state': 'Dhaka'}}
+GOOGLE-LLC_AS15169, 35.206.2.0/24, {'35.206.2.50': {'city': None, 'state': None}, '35.206.2.150': {'city': None, 'state': None}}
+GOOGLE-LLC_AS15169, 35.213.192.0/18, {'35.213.192.100': {'city': 'Sydney', 'state': 'New South Wales'}, '35.213.222.100': {'city': 'Sydney', 'state': 'New South Wales'}, '35.213.252.100': {'city': 'Sydney', 'state': 'New South Wales'}}
+FRONTIER_AS5650, 74.39.194.0/23, {'74.39.194.100': {'city': 'Wausau', 'state': 'Wisconsin'}, '74.39.195.100': {'city': 'Wausau', 'state': 'Wisconsin'}}
+FRONTIER_AS5650, 170.215.75.0/24, {'170.215.75.50': {'city': None, 'state': None}, '170.215.75.150': {'city': None, 'state': None}}
+FRONTIER_AS5650, 172.102.87.0/24, {'172.102.87.50': {'city': 'Lompoc', 'state': 'California'}, '172.102.87.150': {'city': 'Lompoc', 'state': 'California'}}
+FRONTIER_AS5650, 170.215.71.0/24, {'170.215.71.50': {'city': 'Elko', 'state': 'Nevada'}, '170.215.71.150': {'city': 'Elko', 'state': 'Nevada'}}

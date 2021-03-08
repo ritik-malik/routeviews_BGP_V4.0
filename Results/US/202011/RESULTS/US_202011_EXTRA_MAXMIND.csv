@@ -1,0 +1,446 @@
+ISP_ASN, prefix, {geolocation}
+ATT_AS7018, 206.19.231.0/24, {'206.19.231.50': {'city': None, 'state': None}, '206.19.231.150': {'city': None, 'state': None}}
+ATT_AS7018, 199.107.58.0/24, {'199.107.58.50': {'city': 'Washington', 'state': 'District of Columbia'}, '199.107.58.150': {'city': 'Washington', 'state': 'District of Columbia'}}
+ATT_AS7018, 157.234.230.0/24, {'157.234.230.50': {'city': None, 'state': None}, '157.234.230.150': {'city': None, 'state': None}}
+ATT_AS7018, 23.165.128.0/24, {'23.165.128.50': {'city': 'Denton', 'state': 'Texas'}, '23.165.128.150': {'city': 'Krum', 'state': 'Texas'}}
+ATT_AS7018, 206.18.204.0/22, {'206.18.204.100': {'city': None, 'state': None}, '206.18.207.100': {'city': None, 'state': None}}
+ATT_AS7018, 155.94.234.0/24, {'155.94.234.50': {'city': 'Los Angeles', 'state': 'California'}, '155.94.234.150': {'city': 'Los Angeles', 'state': 'California'}}
+ATT_AS7018, 199.5.182.0/24, {'199.5.182.50': {'city': None, 'state': None}, '199.5.182.150': {'city': None, 'state': None}}
+ATT_AS7018, 199.85.0.0/24, {'199.85.0.50': {'city': 'Pittsburg', 'state': 'Texas'}, '199.85.0.150': {'city': 'Pittsburg', 'state': 'Texas'}}
+ATT_AS7018, 104.241.14.0/24, {'104.241.14.50': {'city': 'Cullowhee', 'state': 'North Carolina'}, '104.241.14.150': {'city': 'Cullowhee', 'state': 'North Carolina'}}
+ATT_AS7018, 107.150.3.0/24, {'107.150.3.50': {'city': 'Los Angeles', 'state': 'California'}, '107.150.3.150': {'city': 'Los Angeles', 'state': 'California'}}
+ATT_AS7018, 192.40.157.0/24, {'192.40.157.50': {'city': 'Murray', 'state': 'Kentucky'}, '192.40.157.150': {'city': 'Murray', 'state': 'Kentucky'}}
+ATT_AS7018, 206.18.244.0/22, {'206.18.244.100': {'city': 'San Diego', 'state': 'California'}, '206.18.247.100': {'city': 'San Diego', 'state': 'California'}}
+ATT_AS7018, 170.39.49.0/24, {'170.39.49.50': {'city': 'Arlington', 'state': 'Texas'}, '170.39.49.150': {'city': 'Arlington', 'state': 'Texas'}}
+ATT_AS7018, 206.19.18.0/24, {'206.19.18.50': {'city': None, 'state': None}, '206.19.18.150': {'city': None, 'state': None}}
+ATT_AS7018, 206.18.240.0/22, {'206.18.240.100': {'city': 'San Diego', 'state': 'California'}, '206.18.243.100': {'city': 'San Diego', 'state': 'California'}}
+ATT_AS7018, 166.108.191.0/24, {'166.108.191.50': {'city': None, 'state': None}, '166.108.191.150': {'city': None, 'state': None}}
+ATT_AS7018, 161.215.179.0/24, {'161.215.179.50': {'city': None, 'state': None}, '161.215.179.150': {'city': None, 'state': None}}
+ATT_AS7018, 107.166.0.0/17, {'107.166.0.100': {'city': None, 'state': None}, '107.166.60.100': {'city': None, 'state': None}, '107.166.120.100': {'city': None, 'state': None}}
+ATT_AS7018, 141.193.218.0/23, {'141.193.218.100': {'city': None, 'state': None}, '141.193.219.100': {'city': None, 'state': None}}
+ATT_AS7018, 206.19.36.0/22, {'206.19.36.100': {'city': None, 'state': None}, '206.19.39.100': {'city': None, 'state': None}}
+ATT_AS7018, 206.19.16.0/22, {'206.19.16.100': {'city': None, 'state': None}, '206.19.19.100': {'city': None, 'state': None}}
+ATT_AS7018, 157.234.0.0/16, {'157.234.0.100': {'city': None, 'state': None}, '157.234.120.100': {'city': None, 'state': None}, '157.234.250.100': {'city': 'Germantown', 'state': 'Maryland'}}
+ATT_AS7018, 167.242.233.0/24, {'167.242.233.50': {'city': None, 'state': None}, '167.242.233.150': {'city': None, 'state': None}}
+ATT_AS7018, 157.234.220.0/23, {'157.234.220.100': {'city': None, 'state': None}, '157.234.221.100': {'city': None, 'state': None}}
+ATT_AS7018, 107.225.244.0/22, {'107.225.244.100': {'city': None, 'state': None}, '107.225.247.100': {'city': None, 'state': None}}
+ATT_AS7018, 157.234.222.0/23, {'157.234.222.100': {'city': None, 'state': None}, '157.234.223.100': {'city': None, 'state': None}}
+TEXAS-GIGA-POP_AS22645, 208.76.225.0/24, {'208.76.225.50': {'city': None, 'state': None}, '208.76.225.150': {'city': None, 'state': None}}
+GRANDE_AS7459, 72.48.66.0/23, {'72.48.66.100': {'city': 'Temple', 'state': 'Texas'}, '72.48.67.100': {'city': 'Temple', 'state': 'Texas'}}
+SANTA-ROSA_AS32391, 104.156.3.0/24, {'104.156.3.50': {'city': 'Devol', 'state': 'Oklahoma'}, '104.156.3.150': {'city': 'Devol', 'state': 'Oklahoma'}}
+SANTA-ROSA_AS32391, 69.49.222.0/24, {'69.49.222.50': {'city': 'Munday', 'state': 'Texas'}, '69.49.222.150': {'city': 'Munday', 'state': 'Texas'}}
+SANTA-ROSA_AS32391, 38.131.50.0/23, {'38.131.50.100': {'city': 'Geronimo', 'state': 'Oklahoma'}, '38.131.51.100': {'city': 'Geronimo', 'state': 'Oklahoma'}}
+SANTA-ROSA_AS32391, 104.156.14.0/24, {'104.156.14.50': {'city': 'Vernon', 'state': 'Texas'}, '104.156.14.150': {'city': 'Childress', 'state': 'Texas'}}
+SANTA-ROSA_AS32391, 69.49.220.0/23, {'69.49.220.100': {'city': 'Haskell', 'state': 'Texas'}, '69.49.221.100': {'city': 'Haskell', 'state': 'Texas'}}
+SANTA-ROSA_AS32391, 104.156.15.0/24, {'104.156.15.50': {'city': 'Vernon', 'state': 'Texas'}, '104.156.15.150': {'city': 'Vernon', 'state': 'Texas'}}
+SANTA-ROSA_AS32391, 74.120.134.0/24, {'74.120.134.50': {'city': 'Wichita Falls', 'state': 'Texas'}, '74.120.134.150': {'city': 'Wichita Falls', 'state': 'Texas'}}
+SANTA-ROSA_AS32391, 74.120.130.0/24, {'74.120.130.50': {'city': 'Randlett', 'state': 'Oklahoma'}, '74.120.130.150': {'city': 'Randlett', 'state': 'Oklahoma'}}
+COMCAST_AS7922, 96.114.116.0/22, {'96.114.116.100': {'city': None, 'state': None}, '96.114.119.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.112.88.0/21, {'96.112.88.100': {'city': None, 'state': None}, '96.112.91.100': {'city': None, 'state': None}, '96.112.94.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.96.24.0/21, {'96.96.24.100': {'city': None, 'state': None}, '96.96.27.100': {'city': None, 'state': None}, '96.96.30.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.96.40.0/21, {'96.96.40.100': {'city': None, 'state': None}, '96.96.43.100': {'city': None, 'state': None}, '96.96.46.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.24.0/23, {'162.151.24.100': {'city': None, 'state': None}, '162.151.25.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.114.96.0/22, {'96.114.96.100': {'city': None, 'state': None}, '96.114.99.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.125.0/24, {'96.113.125.50': {'city': None, 'state': None}, '96.113.125.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.236.0/24, {'96.113.236.50': {'city': None, 'state': None}, '96.113.236.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.234.0/24, {'162.151.234.50': {'city': None, 'state': None}, '162.151.234.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.108.170.0/24, {'96.108.170.50': {'city': None, 'state': None}, '96.108.170.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.148.0/22, {'96.113.148.100': {'city': None, 'state': None}, '96.113.151.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.115.88.0/23, {'96.115.88.100': {'city': None, 'state': None}, '96.115.89.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.119.80.0/20, {'96.119.80.100': {'city': None, 'state': None}, '96.119.86.100': {'city': None, 'state': None}, '96.119.92.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 69.241.52.0/24, {'69.241.52.50': {'city': 'Peoria', 'state': 'Illinois'}, '69.241.52.150': {'city': 'Peoria', 'state': 'Illinois'}}
+COMCAST_AS7922, 96.115.198.0/23, {'96.115.198.100': {'city': None, 'state': None}, '96.115.199.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.116.196.0/22, {'96.116.196.100': {'city': None, 'state': None}, '96.116.199.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.32.0/19, {'96.113.32.100': {'city': None, 'state': None}, '96.113.47.100': {'city': None, 'state': None}, '96.113.62.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 24.153.92.0/23, {'24.153.92.100': {'city': None, 'state': None}, '24.153.93.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.102.0/24, {'96.113.102.50': {'city': None, 'state': None}, '96.113.102.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.99.192.0/21, {'96.99.192.100': {'city': None, 'state': None}, '96.99.195.100': {'city': None, 'state': None}, '96.99.198.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.150.0.0/20, {'162.150.0.100': {'city': None, 'state': None}, '162.150.6.100': {'city': None, 'state': None}, '162.150.12.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 24.153.70.0/23, {'24.153.70.100': {'city': None, 'state': None}, '24.153.71.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.101.0/24, {'162.151.101.50': {'city': None, 'state': None}, '162.151.101.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.114.32.0/21, {'96.114.32.100': {'city': None, 'state': None}, '96.114.35.100': {'city': None, 'state': None}, '96.114.38.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.100.0/23, {'96.113.100.100': {'city': None, 'state': None}, '96.113.101.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.109.70.0/23, {'96.109.70.100': {'city': None, 'state': None}, '96.109.71.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.119.160.0/24, {'96.119.160.50': {'city': None, 'state': None}, '96.119.160.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.108.176.0/23, {'96.108.176.100': {'city': None, 'state': None}, '96.108.177.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.110.180.0/22, {'96.110.180.100': {'city': None, 'state': None}, '96.110.183.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.104.0/22, {'96.113.104.100': {'city': None, 'state': None}, '96.113.107.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.115.136.0/22, {'96.115.136.100': {'city': None, 'state': None}, '96.115.139.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 67.164.236.0/23, {'67.164.236.100': {'city': 'Castle Rock', 'state': 'Colorado'}, '67.164.237.100': {'city': 'Castle Rock', 'state': 'Colorado'}}
+COMCAST_AS7922, 96.99.175.0/24, {'96.99.175.50': {'city': None, 'state': None}, '96.99.175.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.108.0/22, {'162.151.108.100': {'city': None, 'state': None}, '162.151.111.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.248.0/23, {'96.113.248.100': {'city': None, 'state': None}, '96.113.249.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 76.96.228.0/23, {'76.96.228.100': {'city': None, 'state': None}, '76.96.229.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.115.176.0/20, {'96.115.176.100': {'city': None, 'state': None}, '96.115.182.100': {'city': None, 'state': None}, '96.115.188.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 69.139.178.0/23, {'69.139.178.100': {'city': None, 'state': None}, '69.139.179.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 69.139.204.0/24, {'69.139.204.50': {'city': None, 'state': None}, '69.139.204.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 69.241.62.0/23, {'69.241.62.100': {'city': 'Peoria', 'state': 'Illinois'}, '69.241.63.100': {'city': 'Peoria', 'state': 'Illinois'}}
+COMCAST_AS7922, 96.113.246.0/23, {'96.113.246.100': {'city': None, 'state': None}, '96.113.247.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 69.252.213.0/24, {'69.252.213.50': {'city': 'Marana', 'state': 'Arizona'}, '69.252.213.150': {'city': 'Marana', 'state': 'Arizona'}}
+COMCAST_AS7922, 162.151.66.0/23, {'162.151.66.100': {'city': None, 'state': None}, '162.151.67.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.172.0/24, {'96.113.172.50': {'city': None, 'state': None}, '96.113.172.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.77.0/24, {'162.151.77.50': {'city': None, 'state': None}, '162.151.77.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.108.16.0/22, {'96.108.16.100': {'city': None, 'state': None}, '96.108.19.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.228.0/22, {'96.113.228.100': {'city': None, 'state': None}, '96.113.231.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 24.124.164.0/22, {'24.124.164.100': {'city': None, 'state': None}, '24.124.167.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.237.0/24, {'96.113.237.50': {'city': None, 'state': None}, '96.113.237.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.109.39.0/24, {'96.109.39.50': {'city': None, 'state': None}, '96.109.39.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.114.20.0/22, {'96.114.20.100': {'city': 'Brooklyn', 'state': 'New York'}, '96.114.23.100': {'city': 'Brooklyn', 'state': 'New York'}}
+COMCAST_AS7922, 96.113.126.0/23, {'96.113.126.100': {'city': None, 'state': None}, '96.113.127.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.245.0/24, {'96.113.245.50': {'city': None, 'state': None}, '96.113.245.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.192.0/21, {'96.113.192.100': {'city': None, 'state': None}, '96.113.195.100': {'city': None, 'state': None}, '96.113.198.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.99.174.0/24, {'96.99.174.50': {'city': None, 'state': None}, '96.99.174.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.115.218.0/23, {'96.115.218.100': {'city': None, 'state': None}, '96.115.219.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.100.0/24, {'162.151.100.50': {'city': None, 'state': None}, '162.151.100.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.115.80.0/22, {'96.115.80.100': {'city': None, 'state': None}, '96.115.83.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.108.108.0/23, {'96.108.108.100': {'city': None, 'state': None}, '96.108.109.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.116.64.0/19, {'96.116.64.100': {'city': None, 'state': None}, '96.116.79.100': {'city': None, 'state': None}, '96.116.94.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.192.0/21, {'162.151.192.100': {'city': None, 'state': None}, '162.151.195.100': {'city': None, 'state': None}, '162.151.198.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.99.171.0/24, {'96.99.171.50': {'city': None, 'state': None}, '96.99.171.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 69.252.238.0/23, {'69.252.238.100': {'city': None, 'state': None}, '69.252.239.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.114.0.0/22, {'96.114.0.100': {'city': 'Brooklyn', 'state': 'New York'}, '96.114.3.100': {'city': 'Brooklyn', 'state': 'New York'}}
+COMCAST_AS7922, 96.96.18.0/23, {'96.96.18.100': {'city': None, 'state': None}, '96.96.19.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.115.128.0/21, {'96.115.128.100': {'city': None, 'state': None}, '96.115.131.100': {'city': None, 'state': None}, '96.115.134.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.108.54.0/23, {'96.108.54.100': {'city': 'Modena', 'state': 'Pennsylvania'}, '96.108.55.100': {'city': 'Modena', 'state': 'Pennsylvania'}}
+COMCAST_AS7922, 96.113.98.0/23, {'96.113.98.100': {'city': None, 'state': None}, '96.113.99.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 76.96.231.0/24, {'76.96.231.50': {'city': None, 'state': None}, '76.96.231.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 68.87.112.0/21, {'68.87.112.100': {'city': 'Philadelphia', 'state': 'Pennsylvania'}, '68.87.115.100': {'city': 'Philadelphia', 'state': 'Pennsylvania'}, '68.87.118.100': {'city': 'Philadelphia', 'state': 'Pennsylvania'}}
+COMCAST_AS7922, 162.151.226.0/23, {'162.151.226.100': {'city': None, 'state': None}, '162.151.227.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 69.241.53.0/24, {'69.241.53.50': {'city': 'Peoria', 'state': 'Illinois'}, '69.241.53.150': {'city': 'Peoria', 'state': 'Illinois'}}
+COMCAST_AS7922, 96.118.32.0/19, {'96.118.32.100': {'city': None, 'state': None}, '96.118.47.100': {'city': None, 'state': None}, '96.118.62.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.108.168.0/23, {'96.108.168.100': {'city': None, 'state': None}, '96.108.169.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.117.64.0/19, {'96.117.64.100': {'city': None, 'state': None}, '96.117.79.100': {'city': None, 'state': None}, '96.117.94.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 69.139.139.0/24, {'69.139.139.50': {'city': None, 'state': None}, '69.139.139.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.116.96.0/19, {'96.116.96.100': {'city': None, 'state': None}, '96.116.111.100': {'city': None, 'state': None}, '96.116.126.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.97.0/24, {'96.113.97.50': {'city': None, 'state': None}, '96.113.97.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.231.0/24, {'162.151.231.50': {'city': None, 'state': None}, '162.151.231.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.108.189.0/24, {'96.108.189.50': {'city': None, 'state': None}, '96.108.189.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.108.72.0/22, {'96.108.72.100': {'city': None, 'state': None}, '96.108.75.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.150.48.0/20, {'162.150.48.100': {'city': None, 'state': None}, '162.150.54.100': {'city': None, 'state': None}, '162.150.60.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.132.0/23, {'96.113.132.100': {'city': None, 'state': None}, '96.113.133.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.118.224.0/19, {'96.118.224.100': {'city': None, 'state': None}, '96.118.239.100': {'city': None, 'state': None}, '96.118.254.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 68.87.20.0/22, {'68.87.20.100': {'city': None, 'state': None}, '68.87.23.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.110.128.0/22, {'96.110.128.100': {'city': None, 'state': None}, '96.110.131.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.112.72.0/21, {'96.112.72.100': {'city': None, 'state': None}, '96.112.75.100': {'city': None, 'state': None}, '96.112.78.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.114.240.0/22, {'96.114.240.100': {'city': None, 'state': None}, '96.114.243.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.114.111.0/24, {'96.114.111.50': {'city': None, 'state': None}, '96.114.111.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.240.0/24, {'162.151.240.50': {'city': None, 'state': None}, '162.151.240.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.114.212.0/23, {'96.114.212.100': {'city': None, 'state': None}, '96.114.213.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.99.180.0/22, {'96.99.180.100': {'city': None, 'state': None}, '96.99.183.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.114.120.0/21, {'96.114.120.100': {'city': None, 'state': None}, '96.114.123.100': {'city': None, 'state': None}, '96.114.126.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.103.0.0/17, {'96.103.0.100': {'city': None, 'state': None}, '96.103.60.100': {'city': None, 'state': None}, '96.103.120.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.108.162.0/23, {'96.108.162.100': {'city': None, 'state': None}, '96.108.163.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.118.64.0/19, {'96.118.64.100': {'city': None, 'state': None}, '96.118.79.100': {'city': None, 'state': None}, '96.118.94.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 69.139.236.0/22, {'69.139.236.100': {'city': None, 'state': None}, '69.139.239.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.30.0/24, {'96.113.30.50': {'city': None, 'state': None}, '96.113.30.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.112.0/24, {'96.113.112.50': {'city': None, 'state': None}, '96.113.112.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.150.18.0/24, {'162.150.18.50': {'city': None, 'state': None}, '162.150.18.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.112.160.0/22, {'96.112.160.100': {'city': None, 'state': None}, '96.112.163.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.115.160.0/21, {'96.115.160.100': {'city': None, 'state': None}, '96.115.163.100': {'city': None, 'state': None}, '96.115.166.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.140.0/22, {'162.151.140.100': {'city': None, 'state': None}, '162.151.143.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.0.0/21, {'96.113.0.100': {'city': None, 'state': None}, '96.113.3.100': {'city': None, 'state': None}, '96.113.6.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.148.108.0/23, {'162.148.108.100': {'city': None, 'state': None}, '162.148.109.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 67.164.232.0/24, {'67.164.232.50': {'city': 'Castle Rock', 'state': 'Colorado'}, '67.164.232.150': {'city': 'Castle Rock', 'state': 'Colorado'}}
+COMCAST_AS7922, 96.116.48.0/20, {'96.116.48.100': {'city': None, 'state': None}, '96.116.54.100': {'city': None, 'state': None}, '96.116.60.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 76.96.208.0/24, {'76.96.208.50': {'city': None, 'state': None}, '76.96.208.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.119.224.0/20, {'96.119.224.100': {'city': None, 'state': None}, '96.119.230.100': {'city': None, 'state': None}, '96.119.236.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 184.126.2.0/23, {'184.126.2.100': {'city': None, 'state': None}, '184.126.3.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.16.0/22, {'96.113.16.100': {'city': None, 'state': None}, '96.113.19.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 76.96.24.0/21, {'76.96.24.100': {'city': None, 'state': None}, '76.96.27.100': {'city': None, 'state': None}, '76.96.30.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.109.82.0/23, {'96.109.82.100': {'city': None, 'state': None}, '96.109.83.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.117.96.0/19, {'96.117.96.100': {'city': None, 'state': None}, '96.117.111.100': {'city': None, 'state': None}, '96.117.126.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.115.192.0/22, {'96.115.192.100': {'city': None, 'state': None}, '96.115.195.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.150.56.0/21, {'162.150.56.100': {'city': None, 'state': None}, '162.150.59.100': {'city': None, 'state': None}, '162.150.62.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.114.72.0/22, {'96.114.72.100': {'city': None, 'state': None}, '96.114.75.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 69.252.204.0/22, {'69.252.204.100': {'city': 'Marana', 'state': 'Arizona'}, '69.252.207.100': {'city': 'Marana', 'state': 'Arizona'}}
+COMCAST_AS7922, 96.216.4.0/22, {'96.216.4.100': {'city': 'Millington', 'state': 'Michigan'}, '96.216.7.100': {'city': 'Millington', 'state': 'Michigan'}}
+COMCAST_AS7922, 96.113.108.0/22, {'96.113.108.100': {'city': None, 'state': None}, '96.113.111.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.176.0/22, {'162.151.176.100': {'city': None, 'state': None}, '162.151.179.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.114.209.0/24, {'96.114.209.50': {'city': None, 'state': None}, '96.114.209.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.114.100.0/22, {'96.114.100.100': {'city': None, 'state': None}, '96.114.103.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.200.0/21, {'162.151.200.100': {'city': None, 'state': None}, '162.151.203.100': {'city': None, 'state': None}, '162.151.206.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.117.0.0/19, {'96.117.0.100': {'city': None, 'state': None}, '96.117.15.100': {'city': None, 'state': None}, '96.117.30.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.156.0/22, {'162.151.156.100': {'city': None, 'state': None}, '162.151.159.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.226.0/23, {'96.113.226.100': {'city': None, 'state': None}, '96.113.227.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.110.80.0/21, {'96.110.80.100': {'city': None, 'state': None}, '96.110.83.100': {'city': None, 'state': None}, '96.110.86.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.119.176.0/20, {'96.119.176.100': {'city': None, 'state': None}, '96.119.182.100': {'city': None, 'state': None}, '96.119.188.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.224.0/24, {'162.151.224.50': {'city': None, 'state': None}, '162.151.224.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.108.92.0/22, {'96.108.92.100': {'city': None, 'state': None}, '96.108.95.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.102.64.0/18, {'96.102.64.100': {'city': None, 'state': None}, '96.102.94.100': {'city': None, 'state': None}, '96.102.124.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.110.72.0/21, {'96.110.72.100': {'city': None, 'state': None}, '96.110.75.100': {'city': None, 'state': None}, '96.110.78.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.112.152.0/21, {'96.112.152.100': {'city': None, 'state': None}, '96.112.155.100': {'city': None, 'state': None}, '96.112.158.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.112.176.0/21, {'96.112.176.100': {'city': None, 'state': None}, '96.112.179.100': {'city': None, 'state': None}, '96.112.182.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 76.96.218.0/24, {'76.96.218.50': {'city': None, 'state': None}, '76.96.218.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 69.241.52.0/23, {'69.241.52.100': {'city': 'Peoria', 'state': 'Illinois'}, '69.241.53.100': {'city': 'Peoria', 'state': 'Illinois'}}
+COMCAST_AS7922, 96.114.48.0/23, {'96.114.48.100': {'city': None, 'state': None}, '96.114.49.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.108.12.0/22, {'96.108.12.100': {'city': None, 'state': None}, '96.108.15.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.109.96.0/22, {'96.109.96.100': {'city': None, 'state': None}, '96.109.99.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 69.252.122.0/23, {'69.252.122.100': {'city': None, 'state': None}, '69.252.123.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.108.96.0/23, {'96.108.96.100': {'city': None, 'state': None}, '96.108.97.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 67.164.234.0/23, {'67.164.234.100': {'city': 'Castle Rock', 'state': 'Colorado'}, '67.164.235.100': {'city': 'Castle Rock', 'state': 'Colorado'}}
+COMCAST_AS7922, 162.151.132.0/23, {'162.151.132.100': {'city': None, 'state': None}, '162.151.133.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.117.32.0/19, {'96.117.32.100': {'city': None, 'state': None}, '96.117.47.100': {'city': None, 'state': None}, '96.117.62.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.104.0/22, {'162.151.104.100': {'city': None, 'state': None}, '162.151.107.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.103.192.0/18, {'96.103.192.100': {'city': None, 'state': None}, '96.103.222.100': {'city': None, 'state': None}, '96.103.252.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.103.128.0/18, {'96.103.128.100': {'city': None, 'state': None}, '96.103.158.100': {'city': None, 'state': None}, '96.103.188.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.114.214.0/23, {'96.114.214.100': {'city': None, 'state': None}, '96.114.215.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.114.76.0/22, {'96.114.76.100': {'city': None, 'state': None}, '96.114.79.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.114.220.0/24, {'96.114.220.50': {'city': None, 'state': None}, '96.114.220.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.118.192.0/19, {'96.118.192.100': {'city': None, 'state': None}, '96.118.207.100': {'city': None, 'state': None}, '96.118.222.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.110.68.0/23, {'96.110.68.100': {'city': None, 'state': None}, '96.110.69.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.240.0/23, {'96.113.240.100': {'city': None, 'state': None}, '96.113.241.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 76.96.240.0/22, {'76.96.240.100': {'city': None, 'state': None}, '76.96.243.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 76.96.236.0/23, {'76.96.236.100': {'city': None, 'state': None}, '76.96.237.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.246.0/24, {'162.151.246.50': {'city': None, 'state': None}, '162.151.246.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.88.0/23, {'96.113.88.100': {'city': None, 'state': None}, '96.113.89.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.20.0/24, {'96.113.20.50': {'city': None, 'state': None}, '96.113.20.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.110.104.0/23, {'96.110.104.100': {'city': None, 'state': None}, '96.110.105.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.112.64.0/21, {'96.112.64.100': {'city': None, 'state': None}, '96.112.67.100': {'city': None, 'state': None}, '96.112.70.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.110.106.0/23, {'96.110.106.100': {'city': None, 'state': None}, '96.110.107.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.110.224.0/21, {'96.110.224.100': {'city': None, 'state': None}, '96.110.227.100': {'city': None, 'state': None}, '96.110.230.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.109.92.0/22, {'96.109.92.100': {'city': None, 'state': None}, '96.109.95.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.110.50.0/23, {'96.110.50.100': {'city': None, 'state': None}, '96.110.51.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.108.213.0/24, {'96.108.213.50': {'city': None, 'state': None}, '96.108.213.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.108.202.0/24, {'96.108.202.50': {'city': None, 'state': None}, '96.108.202.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.114.24.0/21, {'96.114.24.100': {'city': 'Brooklyn', 'state': 'New York'}, '96.114.27.100': {'city': 'Brooklyn', 'state': 'New York'}, '96.114.30.100': {'city': 'Brooklyn', 'state': 'New York'}}
+COMCAST_AS7922, 96.96.196.0/23, {'96.96.196.100': {'city': None, 'state': None}, '96.96.197.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.232.0/22, {'96.113.232.100': {'city': None, 'state': None}, '96.113.235.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.8.0/21, {'96.113.8.100': {'city': None, 'state': None}, '96.113.11.100': {'city': None, 'state': None}, '96.113.14.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.115.72.0/21, {'96.115.72.100': {'city': None, 'state': None}, '96.115.75.100': {'city': None, 'state': None}, '96.115.78.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.110.8.0/22, {'96.110.8.100': {'city': None, 'state': None}, '96.110.11.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.118.128.0/19, {'96.118.128.100': {'city': None, 'state': None}, '96.118.143.100': {'city': None, 'state': None}, '96.118.158.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.99.172.0/24, {'96.99.172.50': {'city': None, 'state': None}, '96.99.172.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.150.19.0/24, {'162.150.19.50': {'city': None, 'state': None}, '162.150.19.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.109.78.0/23, {'96.109.78.100': {'city': None, 'state': None}, '96.109.79.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.112.80.0/21, {'96.112.80.100': {'city': None, 'state': None}, '96.112.83.100': {'city': None, 'state': None}, '96.112.86.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.118.0.0/19, {'96.118.0.100': {'city': None, 'state': None}, '96.118.15.100': {'city': None, 'state': None}, '96.118.30.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.244.0/23, {'162.151.244.100': {'city': None, 'state': None}, '162.151.245.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.110.144.0/24, {'96.110.144.50': {'city': None, 'state': None}, '96.110.144.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 69.252.102.0/23, {'69.252.102.100': {'city': None, 'state': None}, '69.252.103.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.102.0.0/18, {'96.102.0.100': {'city': None, 'state': None}, '96.102.30.100': {'city': None, 'state': None}, '96.102.60.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.112.246.0/24, {'96.112.246.50': {'city': None, 'state': None}, '96.112.246.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 69.252.254.0/24, {'69.252.254.50': {'city': None, 'state': None}, '69.252.254.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.99.160.0/21, {'96.99.160.100': {'city': None, 'state': None}, '96.99.163.100': {'city': None, 'state': None}, '96.99.166.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.211.0/24, {'162.151.211.50': {'city': None, 'state': None}, '162.151.211.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.72.0/23, {'162.151.72.100': {'city': None, 'state': None}, '162.151.73.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.103.64.0/18, {'96.103.64.100': {'city': None, 'state': None}, '96.103.94.100': {'city': None, 'state': None}, '96.103.124.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 68.87.120.0/21, {'68.87.120.100': {'city': 'Philadelphia', 'state': 'Pennsylvania'}, '68.87.123.100': {'city': 'Philadelphia', 'state': 'Pennsylvania'}, '68.87.126.100': {'city': 'Philadelphia', 'state': 'Pennsylvania'}}
+COMCAST_AS7922, 96.115.200.0/22, {'96.115.200.100': {'city': None, 'state': None}, '96.115.203.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.115.216.0/24, {'96.115.216.50': {'city': None, 'state': None}, '96.115.216.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.102.128.0/17, {'96.102.128.100': {'city': None, 'state': None}, '96.102.188.100': {'city': None, 'state': None}, '96.102.248.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.110.3.0/24, {'96.110.3.50': {'city': None, 'state': None}, '96.110.3.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.122.0/24, {'96.113.122.50': {'city': None, 'state': None}, '96.113.122.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.244.0/24, {'96.113.244.50': {'city': None, 'state': None}, '96.113.244.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.114.80.0/21, {'96.114.80.100': {'city': None, 'state': None}, '96.114.83.100': {'city': None, 'state': None}, '96.114.86.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 76.96.222.0/24, {'76.96.222.50': {'city': None, 'state': None}, '76.96.222.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.115.84.0/22, {'96.115.84.100': {'city': None, 'state': None}, '96.115.87.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.108.24.0/22, {'96.108.24.100': {'city': None, 'state': None}, '96.108.27.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.108.60.0/22, {'96.108.60.100': {'city': 'Modena', 'state': 'Pennsylvania'}, '96.108.63.100': {'city': 'Modena', 'state': 'Pennsylvania'}}
+COMCAST_AS7922, 96.116.224.0/19, {'96.116.224.100': {'city': None, 'state': None}, '96.116.239.100': {'city': None, 'state': None}, '96.116.254.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 24.153.72.0/21, {'24.153.72.100': {'city': None, 'state': None}, '24.153.75.100': {'city': None, 'state': None}, '24.153.78.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.110.52.0/22, {'96.110.52.100': {'city': None, 'state': None}, '96.110.55.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.120.0/24, {'162.151.120.50': {'city': None, 'state': None}, '162.151.120.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 76.96.226.0/23, {'76.96.226.100': {'city': None, 'state': None}, '76.96.227.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 69.139.216.0/23, {'69.139.216.100': {'city': None, 'state': None}, '69.139.217.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.113.80.0/21, {'96.113.80.100': {'city': None, 'state': None}, '96.113.83.100': {'city': None, 'state': None}, '96.113.86.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 162.151.230.0/24, {'162.151.230.50': {'city': None, 'state': None}, '162.151.230.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 76.96.217.0/24, {'76.96.217.50': {'city': None, 'state': None}, '76.96.217.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 69.252.100.0/23, {'69.252.100.100': {'city': None, 'state': None}, '69.252.101.100': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.115.208.0/24, {'96.115.208.50': {'city': None, 'state': None}, '96.115.208.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 24.124.136.0/21, {'24.124.136.100': {'city': 'Mount Laurel', 'state': 'New Jersey'}, '24.124.139.100': {'city': 'Mount Laurel', 'state': 'New Jersey'}, '24.124.142.100': {'city': 'Mount Laurel', 'state': 'New Jersey'}}
+COMCAST_AS7922, 96.113.123.0/24, {'96.113.123.50': {'city': None, 'state': None}, '96.113.123.150': {'city': None, 'state': None}}
+COMCAST_AS7922, 96.109.104.0/21, {'96.109.104.100': {'city': None, 'state': None}, '96.109.107.100': {'city': None, 'state': None}, '96.109.110.100': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 209.92.18.0/23, {'209.92.18.100': {'city': None, 'state': None}, '209.92.19.100': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 166.0.112.0/21, {'166.0.112.100': {'city': 'Eugene', 'state': 'Oregon'}, '166.0.115.100': {'city': 'Parlin', 'state': 'New Jersey'}, '166.0.118.100': {'city': 'Sykesville', 'state': 'Maryland'}}
+WINDSTREAM_AS7029, 205.232.204.0/23, {'205.232.204.100': {'city': None, 'state': 'Louisiana'}, '205.232.205.100': {'city': None, 'state': 'Louisiana'}}
+WINDSTREAM_AS7029, 206.245.168.0/24, {'206.245.168.50': {'city': None, 'state': None}, '206.245.168.150': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 141.193.52.0/24, {'141.193.52.50': {'city': 'Fort Lauderdale', 'state': 'Florida'}, '141.193.52.150': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 64.196.200.0/24, {'64.196.200.50': {'city': 'Dorchester', 'state': 'Massachusetts'}, '64.196.200.150': {'city': 'Dorchester', 'state': 'Massachusetts'}}
+WINDSTREAM_AS7029, 206.246.235.0/24, {'206.246.235.50': {'city': 'La Grange', 'state': 'Georgia'}, '206.246.235.150': {'city': 'Pompano Beach', 'state': 'Florida'}}
+WINDSTREAM_AS7029, 63.138.32.0/24, {'63.138.32.50': {'city': 'Alexandria', 'state': 'Virginia'}, '63.138.32.150': {'city': 'Alexandria', 'state': 'Virginia'}}
+WINDSTREAM_AS7029, 199.5.48.0/20, {'199.5.48.100': {'city': None, 'state': None}, '199.5.54.100': {'city': None, 'state': None}, '199.5.60.100': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 64.196.197.0/24, {'64.196.197.50': {'city': 'Spring Valley', 'state': 'New York'}, '64.196.197.150': {'city': 'Spring Valley', 'state': 'New York'}}
+WINDSTREAM_AS7029, 199.5.56.0/21, {'199.5.56.100': {'city': None, 'state': None}, '199.5.59.100': {'city': None, 'state': None}, '199.5.62.100': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 206.245.167.0/24, {'206.245.167.50': {'city': None, 'state': None}, '206.245.167.150': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 206.246.223.0/24, {'206.246.223.50': {'city': 'Birmingham', 'state': 'Alabama'}, '206.246.223.150': {'city': 'Birmingham', 'state': 'Alabama'}}
+WINDSTREAM_AS7029, 64.196.199.0/24, {'64.196.199.50': {'city': 'Spring Valley', 'state': 'New York'}, '64.196.199.150': {'city': 'Spring Valley', 'state': 'New York'}}
+WINDSTREAM_AS7029, 66.153.45.0/24, {'66.153.45.50': {'city': 'Rochester', 'state': 'New York'}, '66.153.45.150': {'city': 'Rochester', 'state': 'New York'}}
+WINDSTREAM_AS7029, 67.151.52.0/24, {'67.151.52.50': {'city': 'Temecula', 'state': 'California'}, '67.151.52.150': {'city': 'Temecula', 'state': 'California'}}
+WINDSTREAM_AS7029, 199.181.232.0/24, {'199.181.232.50': {'city': None, 'state': None}, '199.181.232.150': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 172.85.118.0/24, {'172.85.118.50': {'city': 'New York', 'state': 'New York'}, '172.85.118.150': {'city': 'New York', 'state': 'New York'}}
+WINDSTREAM_AS7029, 169.130.165.0/24, {'169.130.165.50': {'city': 'Plainfield', 'state': 'Illinois'}, '169.130.165.150': {'city': 'Plainfield', 'state': 'Illinois'}}
+WINDSTREAM_AS7029, 141.193.49.0/24, {'141.193.49.50': {'city': None, 'state': None}, '141.193.49.150': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 209.92.50.0/24, {'209.92.50.50': {'city': None, 'state': None}, '209.92.50.150': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 209.96.196.0/22, {'209.96.196.100': {'city': 'Indianapolis', 'state': 'Indiana'}, '209.96.199.100': {'city': 'Englewood', 'state': 'Colorado'}}
+WINDSTREAM_AS7029, 209.92.5.0/24, {'209.92.5.50': {'city': None, 'state': None}, '209.92.5.150': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 207.69.188.0/24, {'207.69.188.50': {'city': 'Duluth', 'state': 'Georgia'}, '207.69.188.150': {'city': 'Duluth', 'state': 'Georgia'}}
+WINDSTREAM_AS7029, 209.252.33.0/24, {'209.252.33.50': {'city': 'Versailles', 'state': 'Kentucky'}, '209.252.33.150': {'city': 'Versailles', 'state': 'Kentucky'}}
+WINDSTREAM_AS7029, 65.79.232.0/21, {'65.79.232.100': {'city': 'Bethesda', 'state': 'Maryland'}, '65.79.235.100': {'city': 'Bethesda', 'state': 'Maryland'}, '65.79.238.100': {'city': 'Bethesda', 'state': 'Maryland'}}
+WINDSTREAM_AS7029, 216.163.146.0/23, {'216.163.146.100': {'city': 'Angola', 'state': 'Indiana'}, '216.163.147.100': {'city': 'Angola', 'state': 'Indiana'}}
+WINDSTREAM_AS7029, 141.193.48.0/24, {'141.193.48.50': {'city': 'Willow Grove', 'state': 'Pennsylvania'}, '141.193.48.150': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 64.196.196.0/24, {'64.196.196.50': {'city': 'Spring Valley', 'state': 'New York'}, '64.196.196.150': {'city': 'Spring Valley', 'state': 'New York'}}
+WINDSTREAM_AS7029, 209.92.4.0/24, {'209.92.4.50': {'city': None, 'state': None}, '209.92.4.150': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 206.246.212.0/22, {'206.246.212.100': {'city': 'Richmond', 'state': 'Virginia'}, '206.246.215.100': {'city': 'Richmond', 'state': 'Virginia'}}
+WINDSTREAM_AS7029, 199.5.48.0/21, {'199.5.48.100': {'city': None, 'state': None}, '199.5.51.100': {'city': 'Ooltewah', 'state': 'Tennessee'}, '199.5.54.100': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 166.0.120.0/21, {'166.0.120.100': {'city': 'Olympia', 'state': 'Washington'}, '166.0.123.100': {'city': 'Brooklyn', 'state': 'New York'}, '166.0.126.100': {'city': 'Hartford', 'state': 'Wisconsin'}}
+WINDSTREAM_AS7029, 104.241.14.0/24, {'104.241.14.50': {'city': 'Cullowhee', 'state': 'North Carolina'}, '104.241.14.150': {'city': 'Cullowhee', 'state': 'North Carolina'}}
+WINDSTREAM_AS7029, 38.34.128.0/19, {'38.34.128.100': {'city': 'Silver Spring', 'state': 'Maryland'}, '38.34.143.100': {'city': 'Quincy', 'state': 'Massachusetts'}, '38.34.158.100': {'city': 'Montgomery Village', 'state': 'Maryland'}}
+WINDSTREAM_AS7029, 205.147.200.0/24, {'205.147.200.50': {'city': None, 'state': None}, '205.147.200.150': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 209.92.1.0/24, {'209.92.1.50': {'city': None, 'state': None}, '209.92.1.150': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 64.196.202.0/23, {'64.196.202.100': {'city': 'Revere', 'state': 'Massachusetts'}, '64.196.203.100': {'city': 'Revere', 'state': 'Massachusetts'}}
+WINDSTREAM_AS7029, 67.151.243.0/24, {'67.151.243.50': {'city': 'Braintree', 'state': 'Massachusetts'}, '67.151.243.150': {'city': 'Braintree', 'state': 'Massachusetts'}}
+WINDSTREAM_AS7029, 166.0.80.0/21, {'166.0.80.100': {'city': 'Eugene', 'state': 'Oregon'}, '166.0.83.100': {'city': 'Charlotte Hall', 'state': 'Maryland'}, '166.0.86.100': {'city': 'East Brunswick', 'state': 'New Jersey'}}
+WINDSTREAM_AS7029, 216.151.46.0/23, {'216.151.46.100': {'city': None, 'state': None}, '216.151.47.100': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 209.165.0.0/24, {'209.165.0.50': {'city': None, 'state': None}, '209.165.0.150': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 207.59.54.0/24, {'207.59.54.50': {'city': 'Durham', 'state': 'North Carolina'}, '207.59.54.150': {'city': 'Durham', 'state': 'North Carolina'}}
+WINDSTREAM_AS7029, 166.0.104.0/21, {'166.0.104.100': {'city': 'Hicksville', 'state': 'New York'}, '166.0.107.100': {'city': 'New York', 'state': 'New York'}, '166.0.110.100': {'city': 'Austin', 'state': 'Texas'}}
+WINDSTREAM_AS7029, 199.5.32.0/21, {'199.5.32.100': {'city': None, 'state': 'Michigan'}, '199.5.35.100': {'city': None, 'state': 'Michigan'}, '199.5.38.100': {'city': None, 'state': 'Michigan'}}
+WINDSTREAM_AS7029, 64.80.213.0/24, {'64.80.213.50': {'city': 'Cortland', 'state': 'New York'}, '64.80.213.150': {'city': 'Cortland', 'state': 'New York'}}
+WINDSTREAM_AS7029, 207.10.205.0/24, {'207.10.205.50': {'city': 'Dubuque', 'state': 'Iowa'}, '207.10.205.150': {'city': 'Dubuque', 'state': 'Iowa'}}
+WINDSTREAM_AS7029, 64.196.52.0/24, {'64.196.52.50': {'city': 'Peoria', 'state': 'Illinois'}, '64.196.52.150': {'city': 'Peoria', 'state': 'Illinois'}}
+WINDSTREAM_AS7029, 209.92.32.0/24, {'209.92.32.50': {'city': None, 'state': None}, '209.92.32.150': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 64.77.207.0/24, {'64.77.207.50': {'city': None, 'state': None}, '64.77.207.150': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 166.0.88.0/21, {'166.0.88.100': {'city': 'Eugene', 'state': 'Oregon'}, '166.0.91.100': {'city': 'Newark', 'state': 'Delaware'}, '166.0.94.100': {'city': 'Brooklyn', 'state': 'New York'}}
+WINDSTREAM_AS7029, 216.163.148.0/23, {'216.163.148.100': {'city': 'Angola', 'state': 'Indiana'}, '216.163.149.100': {'city': 'Angola', 'state': 'Indiana'}}
+WINDSTREAM_AS7029, 141.193.50.0/24, {'141.193.50.50': {'city': None, 'state': None}, '141.193.50.150': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 64.196.112.0/24, {'64.196.112.50': {'city': 'Milledgeville', 'state': 'Georgia'}, '64.196.112.150': {'city': 'Milledgeville', 'state': 'Georgia'}}
+WINDSTREAM_AS7029, 64.196.201.0/24, {'64.196.201.50': {'city': 'Dorchester', 'state': 'Massachusetts'}, '64.196.201.150': {'city': 'Dorchester', 'state': 'Massachusetts'}}
+WINDSTREAM_AS7029, 209.253.146.0/24, {'209.253.146.50': {'city': 'Albuquerque', 'state': 'New Mexico'}, '209.253.146.150': {'city': 'Albuquerque', 'state': 'New Mexico'}}
+WINDSTREAM_AS7029, 166.0.72.0/21, {'166.0.72.100': {'city': 'Woodstock', 'state': 'Georgia'}, '166.0.75.100': {'city': 'Brooklyn', 'state': 'New York'}, '166.0.78.100': {'city': 'Houston', 'state': 'Texas'}}
+WINDSTREAM_AS7029, 216.236.85.0/24, {'216.236.85.50': {'city': 'Florence', 'state': 'Kentucky'}, '216.236.85.150': {'city': 'Florence', 'state': 'Kentucky'}}
+WINDSTREAM_AS7029, 205.147.201.0/24, {'205.147.201.50': {'city': None, 'state': None}, '205.147.201.150': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 209.96.142.0/23, {'209.96.142.100': {'city': 'Brooklyn', 'state': 'New York'}, '209.96.143.100': {'city': 'Brooklyn', 'state': 'New York'}}
+WINDSTREAM_AS7029, 74.10.11.0/24, {'74.10.11.50': {'city': 'Brea', 'state': 'California'}, '74.10.11.150': {'city': 'Brea', 'state': 'California'}}
+WINDSTREAM_AS7029, 205.232.90.0/24, {'205.232.90.50': {'city': 'Hernando', 'state': 'Mississippi'}, '205.232.90.150': {'city': 'Hernando', 'state': 'Mississippi'}}
+WINDSTREAM_AS7029, 166.0.96.0/21, {'166.0.96.100': {'city': 'Auburn', 'state': 'Washington'}, '166.0.99.100': {'city': 'Hoboken', 'state': 'New Jersey'}, '166.0.102.100': {'city': 'Phoenix', 'state': 'Arizona'}}
+WINDSTREAM_AS7029, 199.5.40.0/21, {'199.5.40.100': {'city': None, 'state': 'Michigan'}, '199.5.43.100': {'city': None, 'state': 'Michigan'}, '199.5.46.100': {'city': None, 'state': 'Michigan'}}
+WINDSTREAM_AS7029, 209.92.188.0/24, {'209.92.188.50': {'city': 'Asheboro', 'state': 'North Carolina'}, '209.92.188.150': {'city': 'Asheboro', 'state': 'North Carolina'}}
+WINDSTREAM_AS7029, 206.246.226.0/24, {'206.246.226.50': {'city': 'Deltona', 'state': 'Florida'}, '206.246.226.150': {'city': 'Deltona', 'state': 'Florida'}}
+WINDSTREAM_AS7029, 199.5.32.0/20, {'199.5.32.100': {'city': None, 'state': 'Michigan'}, '199.5.38.100': {'city': None, 'state': 'Michigan'}, '199.5.44.100': {'city': None, 'state': 'Michigan'}}
+WINDSTREAM_AS7029, 206.246.236.0/24, {'206.246.236.50': {'city': 'Des Moines', 'state': 'Iowa'}, '206.246.236.150': {'city': 'Des Moines', 'state': 'Iowa'}}
+WINDSTREAM_AS7029, 107.7.255.0/24, {'107.7.255.50': {'city': 'Charlotte', 'state': 'North Carolina'}, '107.7.255.150': {'city': 'Charlotte', 'state': 'North Carolina'}}
+WINDSTREAM_AS7029, 166.0.64.0/21, {'166.0.64.100': {'city': 'Lexington', 'state': 'Massachusetts'}, '166.0.67.100': {'city': 'Brooklyn', 'state': 'New York'}, '166.0.70.100': {'city': 'Eugene', 'state': 'Oregon'}}
+WINDSTREAM_AS7029, 64.196.198.0/24, {'64.196.198.50': {'city': 'Spring Valley', 'state': 'New York'}, '64.196.198.150': {'city': 'Spring Valley', 'state': 'New York'}}
+WINDSTREAM_AS7029, 206.245.158.0/24, {'206.245.158.50': {'city': 'Perkasie', 'state': 'Pennsylvania'}, '206.245.158.150': {'city': 'Perkasie', 'state': 'Pennsylvania'}}
+WINDSTREAM_AS7029, 209.253.157.0/24, {'209.253.157.50': {'city': 'Carrollton', 'state': 'Texas'}, '209.253.157.150': {'city': 'Carrollton', 'state': 'Texas'}}
+WINDSTREAM_AS7029, 192.195.149.0/24, {'192.195.149.50': {'city': None, 'state': None}, '192.195.149.150': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 209.92.16.0/23, {'209.92.16.100': {'city': None, 'state': None}, '209.92.17.100': {'city': None, 'state': None}}
+WINDSTREAM_AS7029, 63.138.152.0/24, {'63.138.152.50': {'city': 'Concord', 'state': 'Massachusetts'}, '63.138.152.150': {'city': 'Concord', 'state': 'Massachusetts'}}
+CENTURYLINK_AS209, 76.6.0.0/19, {'76.6.0.100': {'city': 'La Crosse', 'state': 'Wisconsin'}, '76.6.15.100': {'city': 'Holmen', 'state': 'Wisconsin'}, '76.6.30.100': {'city': 'Berlin', 'state': 'Wisconsin'}}
+CENTURYLINK_AS209, 23.34.58.0/23, {'23.34.58.100': {'city': 'Edison', 'state': 'New Jersey'}, '23.34.59.100': {'city': 'Edison', 'state': 'New Jersey'}}
+CENTURYLINK_AS209, 207.121.67.0/24, {'207.121.67.50': {'city': None, 'state': None}, '207.121.67.150': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 216.207.139.0/24, {'216.207.139.50': {'city': 'Jefferson City', 'state': 'Missouri'}, '216.207.139.150': {'city': 'Jefferson City', 'state': 'Missouri'}}
+CENTURYLINK_AS209, 207.121.65.0/24, {'207.121.65.50': {'city': None, 'state': None}, '207.121.65.150': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 130.13.128.0/19, {'130.13.128.100': {'city': 'Eugene', 'state': 'Oregon'}, '130.13.143.100': {'city': 'Eugene', 'state': 'Oregon'}, '130.13.158.100': {'city': 'Rogue River', 'state': 'Oregon'}}
+CENTURYLINK_AS209, 207.121.71.0/24, {'207.121.71.50': {'city': None, 'state': None}, '207.121.71.150': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 76.4.0.0/19, {'76.4.0.100': {'city': 'La Crosse', 'state': 'Wisconsin'}, '76.4.15.100': {'city': 'Platteville', 'state': 'Wisconsin'}, '76.4.30.100': {'city': 'Colfax', 'state': 'Wisconsin'}}
+CENTURYLINK_AS209, 206.34.181.0/24, {'206.34.181.50': {'city': None, 'state': None}, '206.34.181.150': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 216.207.130.0/24, {'216.207.130.50': {'city': 'Downsville', 'state': 'Louisiana'}, '216.207.130.150': {'city': 'Downsville', 'state': 'Louisiana'}}
+CENTURYLINK_AS209, 207.121.69.0/24, {'207.121.69.50': {'city': None, 'state': None}, '207.121.69.150': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 174.125.120.0/22, {'174.125.120.100': {'city': 'Drain', 'state': 'Oregon'}, '174.125.123.100': {'city': 'Drain', 'state': 'Oregon'}}
+CENTURYLINK_AS209, 70.56.252.0/22, {'70.56.252.100': {'city': 'Eugene', 'state': 'Oregon'}, '70.56.255.100': {'city': 'Eugene', 'state': 'Oregon'}}
+CENTURYLINK_AS209, 75.171.57.0/24, {'75.171.57.50': {'city': 'Winter Park', 'state': 'Florida'}, '75.171.57.150': {'city': 'Winter Park', 'state': 'Florida'}}
+CENTURYLINK_AS209, 207.121.64.0/24, {'207.121.64.50': {'city': None, 'state': None}, '207.121.64.150': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 98.125.248.0/22, {'98.125.248.100': {'city': 'Kingston', 'state': 'Washington'}, '98.125.251.100': {'city': 'Kingston', 'state': 'Washington'}}
+CENTURYLINK_AS209, 184.4.0.0/18, {'184.4.0.100': {'city': 'Phoenix', 'state': 'Arizona'}, '184.4.30.100': {'city': 'Phoenix', 'state': 'Arizona'}, '184.4.60.100': {'city': 'Mesa', 'state': 'Arizona'}}
+CENTURYLINK_AS209, 216.207.141.0/24, {'216.207.141.50': {'city': 'Portland', 'state': 'Oregon'}, '216.207.141.150': {'city': 'Portland', 'state': 'Oregon'}}
+CENTURYLINK_AS209, 207.121.70.0/24, {'207.121.70.50': {'city': None, 'state': None}, '207.121.70.150': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 184.2.234.0/24, {'184.2.234.50': {'city': 'Atkins', 'state': 'Virginia'}, '184.2.234.150': {'city': 'Atkins', 'state': 'Virginia'}}
+CENTURYLINK_AS209, 67.232.208.0/24, {'67.232.208.50': {'city': 'Emlenton', 'state': 'Pennsylvania'}, '67.232.208.150': {'city': 'Emlenton', 'state': 'Pennsylvania'}}
+CENTURYLINK_AS209, 216.207.131.0/24, {'216.207.131.50': {'city': 'Downsville', 'state': 'Louisiana'}, '216.207.131.150': {'city': 'Downsville', 'state': 'Louisiana'}}
+CENTURYLINK_AS209, 209.136.250.0/24, {'209.136.250.50': {'city': 'Memphis', 'state': 'Tennessee'}, '209.136.250.150': {'city': 'Memphis', 'state': 'Tennessee'}}
+CENTURYLINK_AS209, 75.121.204.0/22, {'75.121.204.100': {'city': None, 'state': None}, '75.121.207.100': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 64.72.32.0/19, {'64.72.32.100': {'city': 'Woodward', 'state': 'Oklahoma'}, '64.72.47.100': {'city': 'White Hall', 'state': 'Arkansas'}, '64.72.62.100': {'city': 'White Hall', 'state': 'Arkansas'}}
+CENTURYLINK_AS209, 207.121.66.0/24, {'207.121.66.50': {'city': None, 'state': None}, '207.121.66.150': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 209.136.253.0/24, {'209.136.253.50': {'city': 'Memphis', 'state': 'Tennessee'}, '209.136.253.150': {'city': 'Memphis', 'state': 'Tennessee'}}
+CENTURYLINK_AS209, 203.15.155.0/24, {'203.15.155.50': {'city': 'Laguna', 'state': 'New Mexico'}, '203.15.155.150': {'city': 'Casa Blanca', 'state': 'New Mexico'}}
+CENTURYLINK_AS209, 209.144.103.0/24, {'209.144.103.50': {'city': 'Marina del Rey', 'state': 'California'}, '209.144.103.150': {'city': 'Marina del Rey', 'state': 'California'}}
+CENTURYLINK_AS209, 216.207.128.0/24, {'216.207.128.50': {'city': 'Phoenix', 'state': 'Arizona'}, '216.207.128.150': {'city': 'Phoenix', 'state': 'Arizona'}}
+CENTURYLINK_AS209, 98.125.148.0/22, {'98.125.148.100': {'city': 'Vashon', 'state': 'Washington'}, '98.125.151.100': {'city': 'Vashon', 'state': 'Washington'}}
+CENTURYLINK_AS209, 216.207.134.0/24, {'216.207.134.50': {'city': 'Pleasant Lake', 'state': 'Indiana'}, '216.207.134.150': {'city': 'Pleasant Lake', 'state': 'Indiana'}}
+CENTURYLINK_AS209, 207.121.75.0/24, {'207.121.75.50': {'city': None, 'state': None}, '207.121.75.150': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 216.207.137.0/24, {'216.207.137.50': {'city': 'Jefferson City', 'state': 'Missouri'}, '216.207.137.150': {'city': 'Jefferson City', 'state': 'Missouri'}}
+CENTURYLINK_AS209, 204.238.255.0/24, {'204.238.255.50': {'city': 'Dubuque', 'state': 'Iowa'}, '204.238.255.150': {'city': 'Dubuque', 'state': 'Iowa'}}
+CENTURYLINK_AS209, 209.136.254.0/24, {'209.136.254.50': {'city': 'Memphis', 'state': 'Tennessee'}, '209.136.254.150': {'city': 'Memphis', 'state': 'Tennessee'}}
+CENTURYLINK_AS209, 192.149.235.0/24, {'192.149.235.50': {'city': None, 'state': None}, '192.149.235.150': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 76.5.155.0/24, {'76.5.155.50': {'city': 'Chilhowie', 'state': 'Virginia'}, '76.5.155.150': {'city': 'Chilhowie', 'state': 'Virginia'}}
+CENTURYLINK_AS209, 67.14.0.0/17, {'67.14.0.100': {'city': None, 'state': None}, '67.14.60.100': {'city': None, 'state': None}, '67.14.120.100': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 216.207.129.0/24, {'216.207.129.50': {'city': 'Denver', 'state': 'Colorado'}, '216.207.129.150': {'city': 'Snowmass Village', 'state': 'Colorado'}}
+CENTURYLINK_AS209, 24.32.115.0/24, {'24.32.115.50': {'city': 'De Witt', 'state': 'Arkansas'}, '24.32.115.150': {'city': 'De Witt', 'state': 'Arkansas'}}
+CENTURYLINK_AS209, 216.207.133.0/24, {'216.207.133.50': {'city': 'Tustin', 'state': 'California'}, '216.207.133.150': {'city': 'Tustin', 'state': 'California'}}
+CENTURYLINK_AS209, 173.202.192.0/22, {'173.202.192.100': {'city': 'Boscobel', 'state': 'Wisconsin'}, '173.202.195.100': {'city': 'Boscobel', 'state': 'Wisconsin'}}
+CENTURYLINK_AS209, 72.160.72.0/21, {'72.160.72.100': {'city': 'Lakeview', 'state': 'Oregon'}, '72.160.75.100': {'city': 'Lakeview', 'state': 'Oregon'}, '72.160.78.100': {'city': 'Lakeview', 'state': 'Oregon'}}
+CENTURYLINK_AS209, 207.118.204.0/22, {'207.118.204.100': {'city': 'Oconto Falls', 'state': 'Wisconsin'}, '207.118.207.100': {'city': 'Oconto Falls', 'state': 'Wisconsin'}}
+CENTURYLINK_AS209, 207.121.68.0/24, {'207.121.68.50': {'city': None, 'state': None}, '207.121.68.150': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 75.160.218.0/23, {'75.160.218.100': {'city': 'Wake Forest', 'state': 'North Carolina'}, '75.160.219.100': {'city': 'Wake Forest', 'state': 'North Carolina'}}
+CENTURYLINK_AS209, 76.5.0.0/19, {'76.5.0.100': {'city': 'Frazeysburg', 'state': 'Ohio'}, '76.5.15.100': {'city': 'Marysville', 'state': 'Ohio'}, '76.5.30.100': {'city': 'Naples', 'state': 'Florida'}}
+CENTURYLINK_AS209, 207.121.74.0/24, {'207.121.74.50': {'city': None, 'state': None}, '207.121.74.150': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 207.121.73.0/24, {'207.121.73.50': {'city': None, 'state': None}, '207.121.73.150': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 209.136.251.0/24, {'209.136.251.50': {'city': 'Memphis', 'state': 'Tennessee'}, '209.136.251.150': {'city': 'Memphis', 'state': 'Tennessee'}}
+CENTURYLINK_AS209, 209.136.252.0/24, {'209.136.252.50': {'city': 'Memphis', 'state': 'Tennessee'}, '209.136.252.150': {'city': 'Memphis', 'state': 'Tennessee'}}
+CENTURYLINK_AS209, 192.239.136.0/23, {'192.239.136.100': {'city': None, 'state': None}, '192.239.137.100': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 216.172.94.0/23, {'216.172.94.100': {'city': None, 'state': None}, '216.172.95.100': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 207.121.72.0/24, {'207.121.72.50': {'city': None, 'state': None}, '207.121.72.150': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 216.207.142.0/24, {'216.207.142.50': {'city': 'Seattle', 'state': 'Washington'}, '216.207.142.150': {'city': 'Seattle', 'state': 'Washington'}}
+CENTURYLINK_AS209, 209.136.249.0/24, {'209.136.249.50': {'city': 'Memphis', 'state': 'Tennessee'}, '209.136.249.150': {'city': 'Memphis', 'state': 'Tennessee'}}
+CENTURYLINK_AS209, 184.2.232.0/23, {'184.2.232.100': {'city': 'Marion', 'state': 'Virginia'}, '184.2.233.100': {'city': 'Marion', 'state': 'Virginia'}}
+CENTURYLINK_AS209, 216.207.135.0/24, {'216.207.135.50': {'city': 'Pleasant Lake', 'state': 'Indiana'}, '216.207.135.150': {'city': 'Pleasant Lake', 'state': 'Indiana'}}
+CENTURYLINK_AS209, 98.125.228.0/22, {'98.125.228.100': {'city': 'Kingston', 'state': 'Washington'}, '98.125.231.100': {'city': 'Kingston', 'state': 'Washington'}}
+CENTURYLINK_AS209, 209.136.248.0/24, {'209.136.248.50': {'city': 'Memphis', 'state': 'Tennessee'}, '209.136.248.150': {'city': 'Memphis', 'state': 'Tennessee'}}
+CENTURYLINK_AS209, 216.207.136.0/24, {'216.207.136.50': {'city': 'Jefferson City', 'state': 'Missouri'}, '216.207.136.150': {'city': 'Jefferson City', 'state': 'Missouri'}}
+CENTURYLINK_AS209, 209.136.255.0/24, {'209.136.255.50': {'city': 'Memphis', 'state': 'Tennessee'}, '209.136.255.150': {'city': 'Memphis', 'state': 'Tennessee'}}
+CENTURYLINK_AS209, 216.207.143.0/24, {'216.207.143.50': {'city': 'Starke', 'state': 'Florida'}, '216.207.143.150': {'city': 'Starke', 'state': 'Florida'}}
+CENTURYLINK_AS209, 98.125.188.0/22, {'98.125.188.100': {'city': 'Vashon', 'state': 'Washington'}, '98.125.191.100': {'city': 'Kingston', 'state': 'Washington'}}
+CENTURYLINK_AS209, 205.227.157.0/24, {'205.227.157.50': {'city': None, 'state': None}, '205.227.157.150': {'city': None, 'state': None}}
+CENTURYLINK_AS209, 216.207.132.0/24, {'216.207.132.50': {'city': 'Tustin', 'state': 'California'}, '216.207.132.150': {'city': 'Tustin', 'state': 'California'}}
+CENTURYLINK_AS209, 216.207.138.0/24, {'216.207.138.50': {'city': 'Jefferson City', 'state': 'Missouri'}, '216.207.138.150': {'city': 'Jefferson City', 'state': 'Missouri'}}
+CENTURYLINK_AS209, 216.207.140.0/24, {'216.207.140.50': {'city': 'Phoenix', 'state': 'Arizona'}, '216.207.140.150': {'city': 'Phoenix', 'state': 'Arizona'}}
+CENTURYLINK_AS209, 64.64.64.0/19, {'64.64.64.100': {'city': 'Fort Worth', 'state': 'Texas'}, '64.64.79.100': {'city': 'Fort Worth', 'state': 'Texas'}, '64.64.94.100': {'city': 'Fort Worth', 'state': 'Texas'}}
+CENTURYLINK_AS209, 209.59.249.0/24, {'209.59.249.50': {'city': 'Wright City', 'state': 'Missouri'}, '209.59.249.150': {'city': 'Wright City', 'state': 'Missouri'}}
+CENTURYLINK_AS209, 205.169.39.0/24, {'205.169.39.50': {'city': 'Hamilton', 'state': 'Ontario'}, '205.169.39.150': {'city': 'Hamilton', 'state': 'Ontario'}}
+CENTURYLINK_AS209, 76.3.64.0/18, {'76.3.64.100': {'city': 'Columbia', 'state': 'Missouri'}, '76.3.94.100': {'city': 'Columbia', 'state': 'Missouri'}, '76.3.124.100': {'city': 'Columbia', 'state': 'Missouri'}}
+SUDDENLINK_AS19108, 64.72.63.0/24, {'64.72.63.50': {'city': 'Eastland', 'state': 'Texas'}, '64.72.63.150': {'city': 'Eastland', 'state': 'Texas'}}
+SUDDENLINK_AS19108, 64.72.35.0/24, {'64.72.35.50': {'city': 'Cisco', 'state': 'Texas'}, '64.72.35.150': {'city': 'Cisco', 'state': 'Texas'}}
+SUDDENLINK_AS19108, 209.33.62.0/24, {'209.33.62.50': {'city': 'Cisco', 'state': 'Texas'}, '209.33.62.150': {'city': 'Cisco', 'state': 'Texas'}}
+SUDDENLINK_AS19108, 64.72.44.0/24, {'64.72.44.50': {'city': 'Neosho', 'state': 'Missouri'}, '64.72.44.150': {'city': 'Neosho', 'state': 'Missouri'}}
+SUDDENLINK_AS19108, 64.72.52.0/24, {'64.72.52.50': {'city': 'Olney', 'state': 'Texas'}, '64.72.52.150': {'city': 'Olney', 'state': 'Texas'}}
+SUDDENLINK_AS19108, 208.180.91.0/24, {'208.180.91.50': {'city': 'DeRidder', 'state': 'Louisiana'}, '208.180.91.150': {'city': 'DeRidder', 'state': 'Louisiana'}}
+SUDDENLINK_AS19108, 64.72.33.0/24, {'64.72.33.50': {'city': 'Cisco', 'state': 'Texas'}, '64.72.33.150': {'city': 'Cisco', 'state': 'Texas'}}
+SUDDENLINK_AS19108, 209.33.68.0/24, {'209.33.68.50': {'city': 'Cisco', 'state': 'Texas'}, '209.33.68.150': {'city': 'Cisco', 'state': 'Texas'}}
+SUDDENLINK_AS19108, 209.33.48.0/23, {'209.33.48.100': {'city': 'Eastland', 'state': 'Texas'}, '209.33.49.100': {'city': 'Ranger', 'state': 'Texas'}}
+SUDDENLINK_AS19108, 209.33.61.0/24, {'209.33.61.50': {'city': 'Cisco', 'state': 'Texas'}, '209.33.61.150': {'city': 'Cisco', 'state': 'Texas'}}
+SUDDENLINK_AS19108, 50.24.0.0/20, {'50.24.0.100': {'city': 'Charleston', 'state': 'West Virginia'}, '50.24.6.100': {'city': 'South Charleston', 'state': 'West Virginia'}, '50.24.12.100': {'city': 'Dunbar', 'state': 'West Virginia'}}
+SUDDENLINK_AS19108, 24.121.83.0/24, {'24.121.83.50': {'city': 'Kingman', 'state': 'Arizona'}, '24.121.83.150': {'city': 'Kingman', 'state': 'Arizona'}}
+GOOGLE-FIBRE_AS16591, 136.49.192.0/20, {'136.49.192.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.198.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.204.100': {'city': 'Austin', 'state': 'Texas'}}
+GOOGLE-FIBRE_AS16591, 136.49.80.0/20, {'136.49.80.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.86.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.92.100': {'city': 'Austin', 'state': 'Texas'}}
+GOOGLE-FIBRE_AS16591, 136.49.32.0/20, {'136.49.32.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.38.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.44.100': {'city': 'Austin', 'state': 'Texas'}}
+GOOGLE-FIBRE_AS16591, 136.49.64.0/20, {'136.49.64.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.70.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.76.100': {'city': 'Austin', 'state': 'Texas'}}
+GOOGLE-FIBRE_AS16591, 136.49.160.0/20, {'136.49.160.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.166.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.172.100': {'city': 'Austin', 'state': 'Texas'}}
+GOOGLE-FIBRE_AS16591, 136.49.224.0/20, {'136.49.224.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.230.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.236.100': {'city': 'Austin', 'state': 'Texas'}}
+GOOGLE-FIBRE_AS16591, 136.49.240.0/20, {'136.49.240.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.246.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.252.100': {'city': 'Austin', 'state': 'Texas'}}
+GOOGLE-FIBRE_AS16591, 136.49.208.0/20, {'136.49.208.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.214.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.220.100': {'city': 'Austin', 'state': 'Texas'}}
+GOOGLE-FIBRE_AS16591, 136.49.16.0/20, {'136.49.16.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.22.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.28.100': {'city': 'Austin', 'state': 'Texas'}}
+GOOGLE-FIBRE_AS16591, 136.49.176.0/20, {'136.49.176.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.182.100': {'city': 'Austin', 'state': 'Texas'}, '136.49.188.100': {'city': 'Austin', 'state': 'Texas'}}
+GOOGLE-LLC_AS15169, 142.250.110.0/24, {'142.250.110.50': {'city': None, 'state': None}, '142.250.110.150': {'city': None, 'state': None}}
+GOOGLE-LLC_AS15169, 35.213.0.0/17, {'35.213.0.100': {'city': 'Tokyo', 'state': 'Tokyo'}, '35.213.60.100': {'city': 'Tokyo', 'state': 'Tokyo'}, '35.213.120.100': {'city': 'Tokyo', 'state': 'Tokyo'}}
+GOOGLE-LLC_AS15169, 35.219.0.0/17, {'35.219.0.100': {'city': 'Jakarta', 'state': 'Jakarta'}, '35.219.60.100': {'city': 'Jakarta', 'state': 'Jakarta'}, '35.219.120.100': {'city': 'Jakarta', 'state': 'Jakarta'}}
+GOOGLE-LLC_AS15169, 35.213.128.0/18, {'35.213.128.100': {'city': 'Singapore', 'state': None}, '35.213.158.100': {'city': 'Singapore', 'state': None}, '35.213.188.100': {'city': 'Singapore', 'state': None}}
+GOOGLE-LLC_AS15169, 35.215.0.0/18, {'35.215.0.100': {'city': 'Montreal', 'state': 'Quebec'}, '35.215.30.100': {'city': 'Montreal', 'state': 'Quebec'}, '35.215.60.100': {'city': 'Montreal', 'state': 'Quebec'}}
+GOOGLE-LLC_AS15169, 35.215.192.0/18, {'35.215.192.100': {'city': 'São Paulo', 'state': 'Sao Paulo'}, '35.215.222.100': {'city': 'São Paulo', 'state': 'Sao Paulo'}, '35.215.252.100': {'city': 'São Paulo', 'state': 'Sao Paulo'}}
+GOOGLE-LLC_AS15169, 35.206.4.0/24, {'35.206.4.50': {'city': None, 'state': None}, '35.206.4.150': {'city': None, 'state': None}}
+GOOGLE-LLC_AS15169, 35.216.0.0/17, {'35.216.0.100': {'city': 'Seoul', 'state': 'Seoul'}, '35.216.60.100': {'city': 'Seoul', 'state': 'Seoul'}, '35.216.120.100': {'city': 'Seoul', 'state': 'Seoul'}}
+FRONTIER_AS5650, 23.165.128.0/24, {'23.165.128.50': {'city': 'Denton', 'state': 'Texas'}, '23.165.128.150': {'city': 'Krum', 'state': 'Texas'}}
+FRONTIER_AS5650, 47.188.244.0/22, {'47.188.244.100': {'city': 'San Angelo', 'state': 'Texas'}, '47.188.247.100': {'city': 'San Angelo', 'state': 'Texas'}}
+FRONTIER_AS5650, 107.155.220.0/22, {'107.155.220.100': {'city': 'Lowell', 'state': 'Massachusetts'}, '107.155.223.100': {'city': 'Hasbrouck Heights', 'state': 'New Jersey'}}
+FRONTIER_AS5650, 23.226.44.0/24, {'23.226.44.50': {'city': 'Mansfield', 'state': 'Massachusetts'}, '23.226.44.150': {'city': 'Mansfield', 'state': 'Massachusetts'}}
+FRONTIER_AS5650, 76.191.98.0/24, {'76.191.98.50': {'city': None, 'state': None}, '76.191.98.150': {'city': None, 'state': None}}
+FRONTIER_AS5650, 23.226.47.0/24, {'23.226.47.50': {'city': 'Cliffside Park', 'state': 'New Jersey'}, '23.226.47.150': {'city': 'Accokeek', 'state': 'Maryland'}}
+FRONTIER_AS5650, 23.226.46.0/24, {'23.226.46.50': {'city': 'Cliffside Park', 'state': 'New Jersey'}, '23.226.46.150': {'city': 'Cliffside Park', 'state': 'New Jersey'}}
+FRONTIER_AS5650, 23.239.172.0/24, {'23.239.172.50': {'city': 'Washington', 'state': 'District of Columbia'}, '23.239.172.150': {'city': 'Washington', 'state': 'District of Columbia'}}
+FRONTIER_AS5650, 192.245.181.0/24, {'192.245.181.50': {'city': None, 'state': None}, '192.245.181.150': {'city': None, 'state': None}}
+FRONTIER_AS5650, 23.226.216.0/24, {'23.226.216.50': {'city': 'Ypsilanti', 'state': 'Michigan'}, '23.226.216.150': {'city': 'Ypsilanti', 'state': 'Michigan'}}
+FRONTIER_AS5650, 23.226.45.0/24, {'23.226.45.50': {'city': 'Mansfield', 'state': 'Massachusetts'}, '23.226.45.150': {'city': 'Mansfield', 'state': 'Massachusetts'}}
+FRONTIER_AS5650, 76.191.112.0/24, {'76.191.112.50': {'city': None, 'state': None}, '76.191.112.150': {'city': None, 'state': None}}
+FRONTIER_AS5650, 107.155.244.0/24, {'107.155.244.50': {'city': 'Jacksonville', 'state': 'Florida'}, '107.155.244.150': {'city': 'Jacksonville', 'state': 'Florida'}}
+FRONTIER_AS5650, 107.155.192.0/24, {'107.155.192.50': {'city': 'Jersey City', 'state': 'New Jersey'}, '107.155.192.150': {'city': 'Jersey City', 'state': 'New Jersey'}}
+FRONTIER_AS5650, 107.155.204.0/22, {'107.155.204.100': {'city': None, 'state': None}, '107.155.207.100': {'city': None, 'state': None}}
