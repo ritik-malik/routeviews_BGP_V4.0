@@ -39,6 +39,11 @@ mv *_graphs EXTRA
 for i in $(find GRAPHS -name *EXTRA.html); do rm $i; done
 for i in $(find EXTRA -not -name "*EXTRA.html" -type f); do rm $i; done
 
+################ move GRAPHS & EXTRA into RESULTS folder
+
+mkdir RESULTS
+mv GRAPHS EXTRA RESULTS
+
 ##########################################################
 
 echo -e "\nCOMPLETED FINAL PHASE 4 successfully!\nSending final email" >> logs.txt
