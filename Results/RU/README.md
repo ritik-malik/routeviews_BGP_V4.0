@@ -4,10 +4,13 @@
 
 ## Results
 
-* ~ 918 graphs, but >90% are false positives
-* Mainly due to an error in `bokeh_graphs.py`, it counts the graph even if `max - min = 1`
+* ~ 217 graphs, with no correlation
 
-**In conclusion, no correlation**
+## References
 
-#### TODO: Fix `bokeh_graphs.py`
+* https://en.wikipedia.org/wiki/Mobile_phone_industry_in_Russia
+* https://netblocks.org/reports/internet-disrupted-in-russia-amid-opposition-protests-98aRXQAo
+
+
+#### TODO: Fix `bokeh_graphs.py` (DONE)
 
