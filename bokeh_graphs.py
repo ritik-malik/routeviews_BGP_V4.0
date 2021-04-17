@@ -29,8 +29,8 @@ for i in range(len(data)):
         yy=[]
         max_y = max(y)
 
-        # if the prefix not found in CSV & has all 0, then reset & continue next prefix
-        if max_y == 0:
+        # if the prefix not found in CSV & has all 0 OR if max - min < 20, then reset & continue next prefix
+        if max_y == 0 or abs(max(y) - min(y)) < 20:
             x=[]
             y=[]
             continue
