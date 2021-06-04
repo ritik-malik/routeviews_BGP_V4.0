@@ -1,5 +1,29 @@
 # routeviews_BGP_V4.0
 
+This repository contains the final work done during the BTech Project :\
+**Mapping The Maze: The Study of Internet Shutdowns across the world**
+
+**Aim:** *Finding a relationship between geopolitical events and internet shutdowns across the world.*
+
+**Conclusion:** *We can use BGP data as a parameter to detect internet shutdowns on a marcroscopic scale.*
+
+The final BTP report can be found in the [`BTP Report`](BTP_REPORT) directory
+
+Successful case studies include:
+1. Iran
+2. Uganda
+3. Myanmar
+4. US
+
+Unsuccessful case study:
+1. India
+
+The results can found in the [`Results`](Results) directory.
+
+---
+
+The project has old phases & pipeline which can be found here:
+
 New & improved pipeline from  _[routeviews_BGP_V3.0](https://github.com/ritik-malik/routeviews_BGP_V3.0/)_ <br>
 **Beta version** <br>
 
@@ -9,7 +33,7 @@ New & improved pipeline from  _[routeviews_BGP_V3.0](https://github.com/ritik-ma
 ### Major upgradations in new pipeline
 * Dates are flexible, not hardcoded for 1 month, can use any 30 days
 * Support removed for mongoDB, replaced by py dictioneries _\(much faster!)_
-* Execution time less than half day, compared to 1.5 days previously
+* Execution time 7 hours, compared to 1.5 days previously
 * Efficient storage : Using pickle to store dicts as binaries
 * More intutive input for scripts
 * Each script has little man page inside for debugging
@@ -72,24 +96,13 @@ And that's insane! <br>
 * There seems to be very little correlation, but could be just coincidence, <br>
 Only a very small fraction of graphs falling in the right spot, on the days of shutdown <br>
 \(this is only for India) <br>
-\(we got perfect correlatin for Iran & Myanmar) <br>
+\(we got perfect correlation for Iran & Myanmar) <br>
 
 **A major concern :** <br>
 We still don't get it...?<br>
 If these dips in graphs are not for shutdowns, then why are they for though, <br>
 We didn't see same pattern anywhere else! <br>
 
-_**Update this doc**_
+### Update:
 
-
-
-
-
-
-
-
-
-
-
-
-
+**This project is almost over now, and might not be maintained further.**
